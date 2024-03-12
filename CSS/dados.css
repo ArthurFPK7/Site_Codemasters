@@ -102,14 +102,27 @@ header {
     align-items: center;
 }
 .dados_geoespaciais {
+    width: 50rem;
     position: absolute;
-    top: 18%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 80px;
+    font-weight: 900;
+}
 
+.blocodadosgeoespaciais{
+    margin-top: 10px;
+    align-items: center; /* Centraliza verticalmente */
+    display: flex; /* Adiciona display flex para permitir alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    /* width: 100%; Ajusta a largura para 100% */
+    width: 50rem; /* Define o máximo de largura */
+    height: 6rem; /* Ajusta a altura conforme necessário */
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
 
 .dados_b_P_C_B {
@@ -117,9 +130,7 @@ header {
     display: flex;
     font-size: 30px;
     font-weight: bold;
-    height: 100px;
-    
-   
+    height: 100px; 
 }
 .dados_b_P_C_B .dados{
     text-decoration: underline #FFCD01;
@@ -145,7 +156,7 @@ header {
     align-items: center; /* Centraliza verticalmente */
     display: flex; /* Adiciona display flex para permitir alinhamento */
     justify-content: center; /* Centraliza horizontalmente */
-    border-radius: 15px;
+    border-radius: 22px;
     width: 100%; /* Ajusta a largura para 100% */
     max-width: 400px; /* Define o máximo de largura */
     height: 3.5rem; /* Ajusta a altura conforme necessário */
@@ -168,14 +179,13 @@ header {
     color: #000;
     text-align: left; /* Alinha o texto à esquerda */
     margin-left: 0; /* Remove a margem à esquerda */
-    
 }
 
 
 
 .bordaPesquisar {
     border: 2px solid #fff;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 95%;
     height: 1.8rem;
     display: flex; /* Adiciona display flex para alinhar os itens lado a lado */
@@ -185,7 +195,6 @@ header {
 .bordaPesquisar img {
     margin-left: 5px;
     margin-right: 5px; /* Adiciona espaço à direita da imagem */
-   
 }
 
 .bordaPesquisar input {
