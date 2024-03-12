@@ -103,13 +103,23 @@ header {
 }
 .dados_geoespaciais {
     position: absolute;
-    top: 18%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 40px;
+}
 
+.blocodadosgeoespaciais{
+    margin-top: 10px;
+    align-items: center; /* Centraliza verticalmente */
+    display: flex; /* Adiciona display flex para permitir alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    /* width: 100%; Ajusta a largura para 100% */
+    max-width: 200rem; /* Define o máximo de largura */
+    height: 6rem; /* Ajusta a altura conforme necessário */
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .dados_b_P_C_B {
@@ -117,9 +127,7 @@ header {
     display: flex;
     font-size: 30px;
     font-weight: bold;
-    height: 100px;
-    
-   
+    height: 100px; 
 }
 .dados_b_P_C_B .dados{
     text-decoration: underline #FFCD01;
@@ -168,7 +176,6 @@ header {
     color: #000;
     text-align: left; /* Alinha o texto à esquerda */
     margin-left: 0; /* Remove a margem à esquerda */
-    
 }
 
 
@@ -185,7 +192,6 @@ header {
 .bordaPesquisar img {
     margin-left: 5px;
     margin-right: 5px; /* Adiciona espaço à direita da imagem */
-   
 }
 
 .bordaPesquisar input {
