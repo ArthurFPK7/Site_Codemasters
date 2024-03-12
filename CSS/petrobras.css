@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 2000px;
+    height: 800px;
+}
+
+.Destasques {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.barra {
+    background-color: #c7c3c354;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.em_site_p {
+    position: absolute;
+    color: aliceblue;
+    left: 410px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acesse_tbm {
+    position: absolute;
+    color: aliceblue;
+    left: 670px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todos_A {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.todos_H h6 {
+    margin-bottom: 10px;
+}
+
+.todos_H {
+    position: fixed;
+    width: 8000px;
+    left: 20px;
+    bottom: 0;
+    margin: 850px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 25px;
+}
+
+.dadosgeo {
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS do link para a página de dados geoespaciais */
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #479b20;
+}

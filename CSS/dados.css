@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+@font-face {
+    font-family: 'Kulim Park Regular';
+    src:url("../FONTES/Kulim_Park/KulimPark-Regular.ttf");
+  }
+  @font-face {
+    font-family: 'Kulim Park B';
+    src:url("../FONTES/Kulim_Park/KulimPark-Bold.ttf");
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+    font-family: Kulim Park Regular;
+}
+
+img {
+    width: 2000px;
+    height: 600px;
+}
+
+.Destasques {
+    color: green;
+    margin-left: 60px;
+}
+
+.barra {
+    background-color: #c7c3c354;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+a:link {
+    text-decoration: none;
+}
+.pesq_bacias {
+    max-width: 500px;
+    width: 100%;
+}
+
+.em_site_p {
+    position: absolute;
+    color: aliceblue;
+    left: 410px;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acesse_tbm {
+    position: absolute;
+    color: aliceblue;
+    left: 670px;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todos_A {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.todos_H h6 {
+    margin-bottom: 10px;
+}
+
+.todos_H {
+    position: absolute;
+    width: 8000px;
+    left: 20px;
+    bottom: 0;
+    margin: 850px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 25px;
+}
+
+.dadosgeo {
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dados_geoespaciais {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+
+.dados_b_P_C_B {
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    height: 100px;
+    
+   
+}
+.dados_b_P_C_B .dados{
+    text-decoration: underline #FFCD01;
+}
+
+ /* CSS BARRA DE PESQUISA */
+
+ #imgbtnBacia {
+    height: 20px;
+    width: 20px;
+}
+
+.divBusca {
+    display: flex; /* Adiciona display flex para permitir alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 0 auto; /* Centraliza na horizontal dentro do contêiner pai */
+    width: 100%; /* Ajusta a largura para 100% */
+    margin-left: 10px;
+}
+
+.blocoFundo {
+    margin-top: 10px;
+    align-items: center; /* Centraliza verticalmente */
+    display: flex; /* Adiciona display flex para permitir alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    border-radius: 15px;
+    width: 100%; /* Ajusta a largura para 100% */
+    max-width: 400px; /* Define o máximo de largura */
+    height: 3.5rem; /* Ajusta a altura conforme necessário */
+    background: #128E50;
+}
+
+.blocoFundo img {
+    margin-right: 5px; /* Adiciona espaço à direita da imagem */
+    
+}
+
+.blocoFundo input {
+    margin-left: 5px; /* Adiciona espaço à esquerda do input */
+    outline: 0;
+    border: 0;
+    background-color: #128E50;
+}
+
+.dados {
+    color: #000;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-left: 0; /* Remove a margem à esquerda */
+    
+}
+
+
+
+.bordaPesquisar {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    width: 95%;
+    height: 1.8rem;
+    display: flex; /* Adiciona display flex para alinhar os itens lado a lado */
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.bordaPesquisar img {
+    margin-left: 5px;
+    margin-right: 5px; /* Adiciona espaço à direita da imagem */
+   
+}
+
+.bordaPesquisar input {
+    margin-left: 5px; /* Adiciona espaço à esquerda do input */
+    outline: 0;
+    border: 0;
+    background-color: #128E50;
+    flex: 1; /* O input ocupará o restante do espaço disponível */
+}
+
+input::placeholder {
+    color: #fff;
+}

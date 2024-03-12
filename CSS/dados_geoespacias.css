@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+  
+}
+
+.image_fundo {
+    width: 2000px;
+    height: 800px;
+}
+
+.Destasques {
+    color: green;
+    font-family: sans-serif;
+    margin-left: 60px;
+}
+
+.barra {
+    background-color: #c7c3c354;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.em_site_p {
+    position: absolute;
+    color: aliceblue;
+    left: 410px;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acesse_tbm {
+    position: absolute;
+    color: aliceblue;
+    left: 670px;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todos_A {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.todos_H h6 {
+    margin-bottom: 10px;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.todos_H {
+    position: absolute;
+    width: 8000px;
+    left: 20px;
+    bottom: 0;
+    margin: 850px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 25px;
+}
+
+.dadosgeo {
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css do link para pagina de dados geoespacias */
+a:link, a:visited, a:active {
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration: underline;
+	color:yellow;
+}
+/* CSS do link para pagina de dados geoespaciais */
+.dados_geoespaciais {
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+
+}
+
+
+/* CSS do link para dados geoespaciais */
+/* CSS para espaçamento entre a bacias, campos, blocos*/
+.dados_b_P_C_B  {
+    font-size: smaller;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kulim bold', sans-serif;
+    margin-top: 50px;
+}
+.dados_b_P_C_B a{
+    margin-right: 200px;
+    transition: 7s;
+}
+.dados_b_P_C_B a:last-child{
+margin-right: 0;
+}
+/* CSS para espaçamento entre a bacias, campos, blocos*/
+
+.dados {
+    color: #000000;
+}
+
+/* CSS do link para dados geoespaciais */
+.titulo_mapas{
+    display: flex;
+}
+
+/* CSS para o botão Acesso aos Geoespaciais*/
+.botao_geoespaciais{
+top:60px;
+border-radius: 50px;
+background-color: #FFCD01;
+padding: 25px;
+color: aliceblue;
+font-size: 25px;
+text-align: center;
+cursor: pointer;
+}
+.botao_amarelo{
+    text-align: center;
+    margin-top:70px;
+}
+
+.exp_dados{
+margin-top:50px;
+text-align: center;
+font-size:25px;
+}
+
+.P_titulo_b {
+left: 0%;
+margin-top: 100px;
+font-size: 40px;
+font-family: 'Oswald', sans-serif;
+}
+
+#ifo_bacias table td {
+width: calc(100% / 3); /* Divide a largura igualmente entre as células */
+vertical-align: top; /* Alinhar o conteúdo ao topo */
+}
+.titulo_Bacias {
+color: #FFCD01;
+font-size: 30px;
+margin-top: 60px; /* Remover margem superior do título */
+text-align: center;
+}
+.tudo_bacias {
+padding: 10px; /* Adicionar um espaçamento interno */
+text-align: center;
+}
+.p2_b, .p3_b, .p4_b {
+margin-top: 0; /* Remover margem superior do parágrafo */
+}
+
+/* css para titulos de mapas*/
+
+/* css para titulos de mapas*/
+
+.titulo_blocos{
+margin-top: 60px;
+right: 300px;
+font-size:40px;
+}
+.mapa_de_atuacao{
+    width: 100px;
+    height: 5000px;
+}
+
+
