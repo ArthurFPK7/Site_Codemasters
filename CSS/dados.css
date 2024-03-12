@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Impede a barra de rolagem horizontal */
-    font-family: Kulim Park Regular;
+    font-family: Kulim Park Regular, Arial, Helvetica, sans-serif;
 }
 
 img {
