@@ -10,7 +10,12 @@
     font-family: 'Kulim Park B';
     src:url("../FONTES/Kulim_Park/KulimPark-Bold.ttf");
   }
-  
+  @font-face {
+    font-family: 'Kulim Park 700';
+    src:url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@700&display=swap');
+  }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -111,6 +116,7 @@ header {
     color: rgb(255, 255, 255);
     font-size: 80px;
     font-weight: 900;
+    font-family: Kulim Park 700;
 }
 
 .blocodadosgeoespaciais{

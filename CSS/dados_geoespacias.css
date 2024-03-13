@@ -190,7 +190,8 @@ margin-top: 0; /* Remover margem superior do parágrafo */
 .titulo_blocos{
 margin-top: 60px;
 right: 300px;
-font-size:40px;
+font-size:30px;
+
 }
 .titulo_mapas table {
     width: 100%; /* Faz a tabela ocupar a largura total do container */
@@ -219,6 +220,7 @@ font-size:40px;
     flex: 1;
     margin: 10px;
     text-align: center;
+    color: #008C4A;
 }
 
 .mapa_de_atuacao h3 {
