@@ -1,9 +1,9 @@
-
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
-  
+    overflow-x: hidden;
+    /* Impede a barra de rolagem horizontal */
+
 }
 
 .image_fundo {
@@ -89,13 +89,17 @@ header {
 }
 
 /* css do link para pagina de dados geoespacias */
-a:link, a:visited, a:active {
-	text-decoration:none;
-	}
-a:hover {
-	text-decoration: underline;
-	color:yellow;
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
 /* CSS do link para pagina de dados geoespaciais */
 .dados_geoespaciais {
     position: absolute;
@@ -112,7 +116,7 @@ a:hover {
 
 /* CSS do link para dados geoespaciais */
 /* CSS para espaçamento entre a bacias, campos, blocos*/
-.dados_b_P_C_B  {
+.dados_b_P_C_B {
     font-size: smaller;
     text-align: center;
     font-size: 30px;
@@ -120,13 +124,16 @@ a:hover {
     margin-top: 50px;
     font-weight: bold;
 }
-.dados_b_P_C_B a{
+
+.dados_b_P_C_B a {
     margin-right: 200px;
     transition: 7s;
 }
-.dados_b_P_C_B a:last-child{
-margin-right: 0;
+
+.dados_b_P_C_B a:last-child {
+    margin-right: 0;
 }
+
 /* CSS para espaçamento entre a bacias, campos, blocos*/
 
 .dados {
@@ -134,91 +141,113 @@ margin-right: 0;
 }
 
 /* CSS do link para dados geoespaciais */
-.titulo_mapas{
+.titulo_mapas {
     display: flex;
 }
 
 /* CSS para o botão Acesso aos Geoespaciais*/
-.botao_geoespaciais{
-top:60px;
-border-radius: 50px;
-background-color: #FFCD01;
-padding: 25px;
-color: aliceblue;
-font-size: 25px;
-text-align: center;
-cursor: pointer;
-font-weight: bold;
-}
-.botao_amarelo{
+.botao_geoespaciais {
+    top: 60px;
+    border-radius: 50px;
+    background-color: #FFCD01;
+    padding: 25px;
+    color: aliceblue;
+    font-size: 25px;
     text-align: center;
-    margin-top:70px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-.exp_dados{
-margin-top:50px;
-text-align: center;
-font-size:30px;
-line-height: 32px;
+.botao_amarelo {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.exp_dados {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 32px;
 }
 
 .P_titulo_b {
-left: 0%;
-margin-top: 100px;
-font-size: 40px;
-font-family: 'Oswald', sans-serif;
+    left: 0%;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #ifo_bacias table td {
-width: calc(100% / 3); /* Divide a largura igualmente entre as células */
-vertical-align: top; /* Alinhar o conteúdo ao topo */
+    width: calc(100% / 3);
+    /* Divide a largura igualmente entre as células */
+    vertical-align: top;
+    /* Alinhar o conteúdo ao topo */
 }
-.info_bacias{
+
+.info_bacias {
     text-align: center;
     font-size: 20px;
     line-height: 20px;
 }
+
 .titulo_Bacias {
-color: #FFCD01;
-font-size: 30px;
-margin-top: 60px; /* Remover margem superior do título */
-text-align: center;
-font-family: sans-serif;
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 60px;
+    /* Remover margem superior do título */
+    text-align: center;
+    font-family: sans-serif;
 }
+
 .tudo_bacias {
-padding: 10px; /* Adicionar um espaçamento interno */
-text-align: center;
-font-size: 18px;
+    padding: 10px;
+    /* Adicionar um espaçamento interno */
+    text-align: center;
+    font-size: 18px;
 }
-.p2_b, .p3_b, .p4_b {
-margin-top: 0; /* Remover margem superior do parágrafo */
+
+.p2_b,
+.p3_b,
+.p4_b {
+    margin-top: 0;
+    /* Remover margem superior do parágrafo */
 }
 
 /* css para titulos de mapas*/
 
-.titulo_blocos{
-margin-top: 60px;
-right: 300px;
-font-size: 30px;
-font-family: sans-serif;
+.titulo_blocos {
+    margin-top: 60px;
+    right: 300px;
+    font-size: 30px;
+    font-family: sans-serif;
 
 }
+
 .titulo_mapas table {
-    width: 100%; /* Faz a tabela ocupar a largura total do container */
-    border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+    width: 100%;
+    /* Faz a tabela ocupar a largura total do container */
+    border-collapse: collapse;
+    /* Remove o espaço entre as bordas das células */
 }
 
 .titulo_mapas td {
-    text-align: center; /* Centraliza o conteúdo das células */
-    padding: 10px; /* Adiciona espaçamento interno às células */
+    text-align: center;
+    /* Centraliza o conteúdo das células */
+    padding: 10px;
+    /* Adiciona espaçamento interno às células */
 }
 
 .imagens_mapa {
-    width: 100%; /* Faz a imagem ocupar a largura total da célula */
-    max-width: 200px; /* Limita a largura máxima da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+    width: 100%;
+    /* Faz a imagem ocupar a largura total da célula */
+    max-width: 200px;
+    /* Limita a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    display: block;
+    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
 }
 
 .titulo_mapas {
@@ -242,94 +271,139 @@ font-family: sans-serif;
     max-width: 100%;
 }
 
-.inf_blocos{
-text-align: center;
-font-size: 20px;
-line-height: 20px;
+.inf_blocos {
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
 }
 
-.img_mapa_demonstracao{
- 
+.img_mapa_demonstracao {
+    width: 700px;
+    height: 500px;
+    display: block;
+}
 }
 
-.observacao_img{
+.observacao_img {
     font-size: 16px;
     font-family: sans-serif;
     text-align: center;
 }
-.P_titulo2_b{
+
+.P_titulo2_b {
     color: #FFCD01;
     font-size: 30px;
-    margin-top: 20px; /* Remover margem superior do título */
+    margin-top: 20px;
+    /* Remover margem superior do título */
     text-align: center;
     font-family: sans-serif;
 }
-.ifo_campos{
+
+.ifo_campos {
     margin-top: 60px;
     right: 300px;
     font-size: 30px;
     font-family: sans-serif;
 }
-.P_titulo_c{
+
+.P_titulo_c {
     margin-top: 60px;
     right: 300px;
     font-size: 30px;
     font-family: sans-serif;
 }
-.info_campos{
-text-align: center;
-font-size: 18px;
-line-height: 20px;
-}
-.P_titulo2_c{
-    color: #FFCD01;
-    font-size: 30px;
-    margin-top: 20px; /* Remover margem superior do título */
-    text-align: center;
-    font-family: sans-serif;
-}
-.info_deseprod_c{
+
+.info_campos {
     text-align: center;
     font-size: 18px;
     line-height: 20px;
 }
-.titulo_poços{
-margin-top: 60px;
-right: 300px;
-font-size: 30px;
-font-family: sans-serif;
+
+.P_titulo2_c {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 20px;
+    /* Remover margem superior do título */
+    text-align: center;
+    font-family: sans-serif;
 }
-.img_ciclo_demonstracao{
+
+.info_deseprod_c {
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.titulo_poços {
+    margin-top: 60px;
+    right: 300px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.img_ciclo_demonstracao {
+    width: 500px;
+    height: 500px;
+    display: block;
+}
+
+.P_titulo3_c {
+    color: #008C4A;
+    font-size: 30px;
+    margin-top: 20px;
+    /* Remover margem superior do título */
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.info_tipos_poços {
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.P_titulo4_c {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 20px;
+    /* Remover margem superior do título */
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.P_titulo5_c {
+    color: #008C4A;
+    font-size: 30px;
+    margin-top: 20px;
+    /* Remover margem superior do título */
+    text-align: center;
+    font-family: sans-serif;
 
 }
-.P_titulo3_c{
-    color: #008C4A;
-    font-size: 30px;
-    margin-top: 20px; /* Remover margem superior do título */
-    text-align: center;
-    font-family: sans-serif;
+
+.img_demonstracao_tecnica {
+    width: 500px;
+    height: 600px;
+    display: block;
 }
-.info_tipos_poços{
-    text-align: center;
-    font-size: 18px;
-    line-height: 20px;
 }
-.P_titulo4_c{
-    color: #FFCD01;
-    font-size: 30px;
-    margin-top: 20px; /* Remover margem superior do título */
-    text-align: center;
-    font-family: sans-serif;
+
+.img_poço_em_producao {
+    width: 1000px;
+    height: 500px;
+    display: block;
 }
-.P_titulo5_c{
-    color: #008C4A;
-    font-size: 30px;
-    margin-top: 20px; /* Remover margem superior do título */
-    text-align: center;
-    font-family: sans-serif;
-}
-.observacao_img_poços{
+
+.observacao_img_poços {
     font-size: 16px;
     font-family: sans-serif;
     text-align: center;
+}
+
+.footer {
+    text-align: center;
+    color: #868686;
+    background-color: #F5F5F5;
+    font-size: 14px;
+    font-family: sans-serif;
 }
