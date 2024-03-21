@@ -107,7 +107,7 @@ header {
     align-items: center;
 }
 .dados_geoespaciais {
-    width: 50rem;
+    width: 100rem;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -125,7 +125,7 @@ header {
     display: flex; /* Adiciona display flex para permitir alinhamento */
     justify-content: center; /* Centraliza horizontalmente */
     /* width: 100%; Ajusta a largura para 100% */
-    width: 50rem; /* Define o máximo de largura */
+    width: 100rem; /* Define o máximo de largura */
     height: 6rem; /* Ajusta a altura conforme necessário */
     background: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
