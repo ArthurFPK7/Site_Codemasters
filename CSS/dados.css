@@ -242,3 +242,23 @@ input::placeholder {
     
 }
 
+.select_bacias{
+background-color: #128E50;
+border-radius: 10px;
+font-size: larger;
+}
+
+.pesq_blocos{
+    width: 500px;
+    width: 100%;
+}
+
+.pesq_campos{
+    width: 500px;
+    width: 100%;
+}
+
+.pesq_pocos{
+    width: 500px;
+    width: 100%;
+}

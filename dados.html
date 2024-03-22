@@ -49,8 +49,9 @@
                     <div class="blocoFundo">
                         <div class="bordaPesquisar">
                             <img src="IMAGENS/pesquisar.png" id="imgbtnBacia" alt="Buscar" class="imgbtBuscar"/>
-                            <input type="text" id="txtBusca1" placeholder="ESCOLHA UM OU MAIS BACIAS..."/>
+                            <select id="bacias" placeholder="SELECIONE UMA BACIA..." class="select_bacias"/>
                             <ul id="results"></ul>
+                            </select>
                         </div>
                     
                 </div>
@@ -58,47 +59,53 @@
         </div>
 
         <!-- BLOCOS -->
-        <div class="pesq_bacias">
-            <a href="url" class="dados">BLOCOS </a>
-                <div id="divBusca2" class="divBusca">
+        <div class="pesq_blocos">
+            <a href="#ifo_blocos" class="dados">BACIAS</a>
+                <div id="divBusca1" class="divBusca">
                     <div class="blocoFundo">
                         <div class="bordaPesquisar">
-                            <img src="IMAGENS/pesquisar.png" id="imgbtnBloco" alt="Buscar"  class="imgbtBuscar"/>
-                            <input type="text" id="txtBusca2" placeholder="ESCOLHA UM OU MAIS BLOCOS..."/>
+                            <img src="IMAGENS/pesquisar.png" id="imgbtnBlocos" alt="Buscar" class="imgbtBuscar"/>
+                            <select id="blocos" placeholder="SELECIONE UMA BACIA..." class="select_blocos"/>
+                            <ul id="results"></ul>
+                            </select>
                         </div>
                     
                 </div>
             </div>
         </div>
 
+
         <!-- CAMPOS -->
-        <div class="pesq_bacias">
-            <a href="url" class="dados">CAMPOS </a>
-            <div id="divBusca3" class="divBusca">
+        <div class="pesq_campos">
+            <a href="#ifo_campos" class="dados">CAMPOS</a>
+            <div id="divBusca1" class="divBusca">
                 <div class="blocoFundo">
                     <div class="bordaPesquisar">
-                        <img src="IMAGENS/pesquisar.png" id="imgbtnCampo" alt="Buscar"  class="imgbtBuscar"/>
-                        <input type="text" id="txtBusca3" placeholder="ESCOLHA UM  OU MAIS CAMPOS..."/>
+                        <img src="IMAGENS/pesquisar.png" id="imgbtnCampos" alt="Buscar" class="imgbtBuscar"/>
+                        <select id="campos" placeholder="SELECIONE UMA BACIA..." class="select_campos"/>
+                        <ul id="results"></ul>
+                        </select>
                     </div>
                 
             </div>
         </div>
-        </div>
+    </div>
 
         <!-- POÇOS -->
-        <div class="pesq_bacias">
-            <a href="url" class="dados">POÇOS</a>
-            <div id="divBusca4" class="divBusca">
-            <div class="blocoFundo">
-                <div class="bordaPesquisar">
-                    <img src="IMAGENS/pesquisar.png" id="imgbtnPoco" alt="Buscar"  class="imgbtBuscar"/>
-                    <input type="text" id="txtBusca4" placeholder="ESCOLHA UM OU MAIS POÇOS..."/>
+        <div class="pesq_pocos">
+            <a href="#ifo_pocos" class="dados">POÇOS</a>
+                <div id="divBusca1" class="divBusca">
+                    <div class="blocoFundo">
+                        <div class="bordaPesquisar">
+                            <img src="IMAGENS/pesquisar.png" id="imgbtnPocos" alt="Buscar" class="imgbtBuscar"/>
+                            <select id="pocos" placeholder="SELECIONE UMA BACIA..." class="select_pocos"/>
+                            <ul id="results"></ul>
+                            </select>
+                        </div>
+                    
                 </div>
-            
+            </div>
         </div>
-    </div>
-        </div>
-    </div>
     <!-- <script src="dados.js"></script> -->
 </body>
 </html>
