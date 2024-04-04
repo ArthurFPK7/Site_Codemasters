@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/dados.css">
+    <script src="JS/petrobras.js"></script>
     <title>Dados Geoespaciais</title>
 </head>
 <body>
@@ -43,20 +44,29 @@
         <div class="dados_b_P_C_B">
             <!-- bacias -->
 
-        <div class="pesq_bacias">
+        <div id="bacias" class="pesq_bacias">
             <a href="#ifo_bacias" class="dados">BACIAS</a>
-                <div id="divBusca1" class="divBusca">
-                    <div class="blocoFundo">
-                        <div class="bordaPesquisar">
-                            <img src="IMAGENS/pesquisar.png" id="imgbtnBacia" alt="Buscar" class="imgbtBuscar" />
-                            <select id="bacia" placeholder="SELECIONE UMA BACIA..." class="select_bacias" onchange="populaBlocos()" >
-                                <option value="">SELECIONE UMA BACIA...</option>
-                            </select>
-                        </div>
-                    
-                </div>
+            <div id="divBusca1" class="divBusca">
+                <div class="blocoFundo">
+                    <div class="bordaPesquisar">
+                        <img src="IMAGENS/pesquisar.png" id="imgbtnBacia" alt="Buscar" class="imgbtBuscar" />
+
+                        <select id="bacias" class="campos_pesquisa" onchange="mostrarOpcoesBlocos()">
+
+
+                            <option class="opcao" value="valor0">SELECIONE UMA BACIA PRIMEIRO</option>
+
+                            <option class="opcao" value="valor1">Paraná</option>
+                            <option class="opcao" value="mostrar"> São Paulo</option>
+                            <option class="opcao" value="valor1"> Rio de janeiro</option>
+                            <option class="opcao" value="valor1">Bahia</option>
+                            <option class="opcao" value="valor1">  Mato Grosso</option>
+                        </select>
+                    </div>
+                
             </div>
         </div>
+    </div>
 
         <!-- BLOCOS -->
         <div class="pesq_blocos">
@@ -65,8 +75,14 @@
                     <div class="blocoFundo">
                         <div class="bordaPesquisar">
                             <img src="IMAGENS/pesquisar.png" id="imgbtnBlocos" alt="Buscar" class="imgbtBuscar"/>
-                            <select id="bloco" placeholder="SELECIONE UMA BACIA PRIMEIRO..." class="select_blocos" onchange="">
-                                <option value="">SELECIONE UMA BACIA PRIMEIRO...</option>
+
+                            <select id="bloco"  class="campos_pesquisa" onchange="">
+                                
+                                <option class="opcao" value="valor0">"SELECIONE UMA BACIA PRIMEIRO...</option>
+                                <option class="opcao" value="mostrar">BM-S-13</option>
+                                <option class="opcao" value="valor1">BM-S-3</option>
+                                <option class="opcao" value="valor1">GUARA_SUL</option>
+                                <option class="opcao" value="valor1">S-M-673</option>
                             </select>
                         </div>
                     
@@ -82,7 +98,12 @@
                 <div class="blocoFundo">
                     <div class="bordaPesquisar">
                         <img src="IMAGENS/pesquisar.png" id="imgbtnCampos" alt="Buscar" class="imgbtBuscar"/>
-                        <select id="campo" placeholder="SELECIONE UM CAMPO..." class="select_campos" onchange="">
+
+                        <select id="campo" placeholder="SELECIONE UM CAMPO..." class="campos_pesquisa" onchange="">
+                            <option class="opcao" value="valor1">Valor 1</option>
+                                <option class="opcao" value="valor1">Valor 1</option>
+                                <option class="opcao" value="valor1">Valor 1</option>
+                                <option class="opcao" value="valor1">Valor 1</option>
                         <ul id="results"></ul>
                         </select>
                     </div>
@@ -98,7 +119,12 @@
                     <div class="blocoFundo">
                         <div class="bordaPesquisar">
                             <img src="IMAGENS/pesquisar.png" id="imgbtnPocos" alt="Buscar" class="imgbtBuscar"/>
-                            <select id="pocoSelect" placeholder="SELECIONE UM POÇO..." class="select_pocos">
+
+                            <select id="pocoSelect" placeholder="SELECIONE UM POÇO..." class="campos_pesquisa">
+                                <option class="opcao" value="valor1">Valor 1</option>
+                                <option class="opcao" value="valor1">Valor 1</option>
+                                <option class="opcao" value="valor1">Valor 1</option>
+                                <option class="opcao" value="valor1">Valor 1</option>
                             <ul id="results"></ul>
                             </select>
                         </div>

@@ -262,3 +262,21 @@ font-size: larger;
     width: 500px;
     width: 100%;
 }
+
+/* barras de pesquisa campos, bacias poços*/
+#bloco {
+    display:none; /* Inicialmente, o segundo select está escondido */
+}
+
+.campos_pesquisa{
+    width: 500px;
+    height:30px;
+    border-radius: 25px;
+    border-color: #128E50;
+    background-color: #128E50;
+    color:#fff;
+}
+.opcao{
+    border-radius:50%;
+
+}
