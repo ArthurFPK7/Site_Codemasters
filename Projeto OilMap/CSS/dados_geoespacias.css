@@ -134,6 +134,9 @@ a:hover {
     margin-right: 0;
 }
 
+.dados_b_P_C_B .dados{
+    text-decoration: underline #FFCD01;
+}
 /* CSS para espaçamento entre a bacias, campos, blocos*/
 
 .dados {
@@ -175,6 +178,7 @@ a:hover {
     margin-top: 100px;
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
+    text-decoration: underline #FFCD01;
 }
 
 #ifo_bacias table td {
@@ -220,7 +224,7 @@ a:hover {
     right: 300px;
     font-size: 30px;
     font-family: sans-serif;
-
+    text-decoration: underline #FFCD01;
 }
 
 .titulo_mapas table {
@@ -282,7 +286,7 @@ a:hover {
     height: 500px;
     display: block;
 }
-}
+
 
 .observacao_img {
     font-size: 16px;
@@ -311,6 +315,7 @@ a:hover {
     right: 300px;
     font-size: 30px;
     font-family: sans-serif;
+    text-decoration: underline #FFCD01;
 }
 
 .info_campos {
@@ -339,6 +344,7 @@ a:hover {
     right: 300px;
     font-size: 30px;
     font-family: sans-serif;
+    text-decoration: underline #FFCD01;
 }
 
 .img_ciclo_demonstracao {
@@ -384,14 +390,18 @@ a:hover {
 .img_demonstracao_tecnica {
     width: 500px;
     height: 600px;
-    display: block;
+    position: relative;
+    top: auto;
+    left: 690px;
 }
-}
+
 
 .img_poço_em_producao {
     width: 1000px;
     height: 500px;
-    display: block;
+    position: relative;
+    top: auto,; /* Ajuste a posição vertical conforme necessário */
+    left: 450px; /* Ajuste a posição horizontal conforme necessário */
 }
 
 .observacao_img_poços {
