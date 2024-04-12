@@ -159,6 +159,7 @@ a:hover {
     text-align: center;
     cursor: pointer;
     font-weight: bold;
+    border-color: #FFCD01;
 }
 
 .botao_amarelo {
@@ -168,9 +169,10 @@ a:hover {
 
 .exp_dados {
     margin-top: 50px;
-    text-align: center;
+    text-align: align-left;
+    margin-left: 200px;
     font-size: 30px;
-    line-height: 32px;
+    line-height: 1.5;
 }
 
 .P_titulo_b {
@@ -179,6 +181,8 @@ a:hover {
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
     text-decoration: underline #FFCD01;
+    left: 55px;;
+    position: relative;
 }
 
 #ifo_bacias table td {
@@ -189,9 +193,10 @@ a:hover {
 }
 
 .info_bacias {
-    text-align: center;
+    margin-left: 280px;
+    text-align: align-left;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 1.5;
 }
 
 .titulo_Bacias {
@@ -201,18 +206,20 @@ a:hover {
     /* Remover margem superior do título */
     text-align: center;
     font-family: sans-serif;
+    
 }
 
 .tudo_bacias {
     padding: 10px;
     /* Adicionar um espaçamento interno */
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .p2_b,
 .p3_b,
 .p4_b {
+    line-height: 1.5;
     margin-top: 0;
     /* Remover margem superior do parágrafo */
 }
@@ -225,6 +232,8 @@ a:hover {
     font-size: 30px;
     font-family: sans-serif;
     text-decoration: underline #FFCD01;
+    left: 55px;;
+    position: relative;
 }
 
 .titulo_mapas table {
@@ -259,32 +268,46 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.mapa_de_atuacao {
-    flex: 1;
-    margin: 10px;
-    text-align: center;
+.mapa_de_atuacao1 h3 {
+    margin-bottom: 5px;
+    position: relative;
+    color: #008C4A;
+    font-family: sans-serif;
+
+}
+.mapa_de_atuacao2 h3 {
+    margin-bottom: 5px;
+    position: relative;
     color: #008C4A;
     font-family: sans-serif;
 }
-
-.mapa_de_atuacao h3 {
+.mapa_de_atuacao3 h3 {
     margin-bottom: 5px;
+    position: relative;
+    color: #008C4A;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 .imagens_mapa {
     max-width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .inf_blocos {
-    text-align: center;
+    margin-left: 280px;
+    text-align: align-left;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 1.5;
 }
 
 .img_mapa_demonstracao {
     width: 700px;
     height: 500px;
-    display: block;
+    position: relative;
+    top: auto,; /* Ajuste a posição vertical conforme necessário */
+    left: 600px; /* Ajuste a posição horizontal conforme necessário */
 }
 
 
@@ -292,6 +315,7 @@ a:hover {
     font-size: 16px;
     font-family: sans-serif;
     text-align: center;
+    line-height: 1.5;
 }
 
 .P_titulo2_b {
@@ -299,8 +323,10 @@ a:hover {
     font-size: 30px;
     margin-top: 20px;
     /* Remover margem superior do título */
-    text-align: center;
+    left: 55px;;
+    position: relative;
     font-family: sans-serif;
+
 }
 
 .ifo_campos {
@@ -316,12 +342,15 @@ a:hover {
     font-size: 30px;
     font-family: sans-serif;
     text-decoration: underline #FFCD01;
+    left: 55px;;
+    position: relative;
 }
 
 .info_campos {
-    text-align: center;
-    font-size: 18px;
-    line-height: 20px;
+    margin-left: 280px;
+    text-align: align-left;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .P_titulo2_c {
@@ -329,14 +358,17 @@ a:hover {
     font-size: 30px;
     margin-top: 20px;
     /* Remover margem superior do título */
-    text-align: center;
+    left: 55px;;
+    position: relative;
     font-family: sans-serif;
+    
 }
 
 .info_deseprod_c {
-    text-align: center;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 280px;
+    text-align: align-left;
 }
 
 .titulo_poços {
@@ -345,12 +377,16 @@ a:hover {
     font-size: 30px;
     font-family: sans-serif;
     text-decoration: underline #FFCD01;
+    left: 55px;;
+    position: relative;
 }
 
 .img_ciclo_demonstracao {
     width: 500px;
     height: 500px;
-    display: block;
+    position: relative;
+    top: auto,; /* Ajuste a posição vertical conforme necessário */
+    left: 695px; /* Ajuste a posição horizontal conforme necessário */
 }
 
 .P_titulo3_c {
@@ -358,14 +394,25 @@ a:hover {
     font-size: 30px;
     margin-top: 20px;
     /* Remover margem superior do título */
-    text-align: center;
+    left: 55px;;
+    position: relative;
     font-family: sans-serif;
 }
 
 .info_tipos_poços {
+    margin-left: 280px;
+    text-align: align-left;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.subtitulo_pocos {
     text-align: center;
     font-size: 18px;
-    line-height: 20px;
+    color: #008C4A;
+    line-height: 1.5;
+    position: relative;
+    font-weight: bold;
 }
 
 .P_titulo4_c {
@@ -373,7 +420,8 @@ a:hover {
     font-size: 30px;
     margin-top: 20px;
     /* Remover margem superior do título */
-    text-align: center;
+    left: 55px;;
+    position: relative;
     font-family: sans-serif;
 }
 
@@ -382,7 +430,8 @@ a:hover {
     font-size: 30px;
     margin-top: 20px;
     /* Remover margem superior do título */
-    text-align: center;
+    left: 55px;;
+    position: relative;
     font-family: sans-serif;
 
 }
@@ -410,10 +459,24 @@ a:hover {
     text-align: center;
 }
 
-.footer {
+.footer1 {
     text-align: center;
-    color: #868686;
-    background-color: #F5F5F5;
-    font-size: 14px;
+    color: #000000;
+    background-color: #f8f8f8;
+    font-size: 15px;
     font-family: sans-serif;
+    height: 50px;
+    left: 10px;
+    position: relative;
+}
+
+.footer2 {
+    text-align: center;
+    color: #9e9e9e;
+    background-color: #f8f8f8;
+    font-size: 15px;
+    font-family: sans-serif;
+    height: 50px;
+    left: 600px;
+    position: relative;
 }
