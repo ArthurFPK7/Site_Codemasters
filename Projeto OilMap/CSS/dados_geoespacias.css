@@ -169,12 +169,14 @@ a:hover {
 
 .exp_dados {
     margin-top: 50px;
-    text-align: align-left;
-    margin-left: 200px;
     font-size: 30px;
     line-height: 1.5;
-}
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+    }
 
+    
 .P_titulo_b {
     left: 0%;
     margin-top: 100px;
@@ -193,19 +195,22 @@ a:hover {
 }
 
 .info_bacias {
-    margin-left: 280px;
-    text-align: align-left;
     font-size: 20px;
     line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
 }
+
 
 .titulo_Bacias {
     color: #FFCD01;
     font-size: 30px;
     margin-top: 60px;
     /* Remover margem superior do título */
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
+    margin-left: 11%;
     
 }
 
@@ -221,7 +226,12 @@ a:hover {
 .p4_b {
     line-height: 1.5;
     margin-top: 0;
-    /* Remover margem superior do parágrafo */
+    text-align: justify;
+     /* Remover margem superior do parágrafo */
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+   
 }
 
 /* css para titulos de mapas*/
@@ -229,7 +239,7 @@ a:hover {
 .titulo_blocos {
     margin-top: 60px;
     right: 300px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     text-decoration: underline #FFCD01;
     left: 55px;;
@@ -251,7 +261,7 @@ a:hover {
 }
 
 .imagens_mapa {
-    width: 100%;
+    width: 50%;
     /* Faz a imagem ocupar a largura total da célula */
     max-width: 200px;
     /* Limita a largura máxima da imagem */
@@ -261,6 +271,7 @@ a:hover {
     /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
     margin: 0 auto;
     /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+    
 }
 
 .titulo_mapas {
@@ -275,12 +286,14 @@ a:hover {
     font-family: sans-serif;
 
 }
+
 .mapa_de_atuacao2 h3 {
     margin-bottom: 5px;
     position: relative;
     color: #008C4A;
     font-family: sans-serif;
 }
+
 .mapa_de_atuacao3 h3 {
     margin-bottom: 5px;
     position: relative;
@@ -297,9 +310,12 @@ a:hover {
 
 .inf_blocos {
     margin-left: 280px;
-    text-align: align-left;
     font-size: 20px;
     line-height: 1.5;
+    margin-top: 0;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .img_mapa_demonstracao {
@@ -326,7 +342,7 @@ a:hover {
     left: 55px;;
     position: relative;
     font-family: sans-serif;
-
+    margin-left: 1%;
 }
 
 .ifo_campos {
@@ -339,7 +355,7 @@ a:hover {
 .P_titulo_c {
     margin-top: 60px;
     right: 300px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     text-decoration: underline #FFCD01;
     left: 55px;;
@@ -347,10 +363,19 @@ a:hover {
 }
 
 .info_campos {
-    margin-left: 280px;
-    text-align: align-left;
     font-size: 20px;
     line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.info_pocos {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .P_titulo2_c {
@@ -361,20 +386,21 @@ a:hover {
     left: 55px;;
     position: relative;
     font-family: sans-serif;
-    
+    margin-left: 1%;
 }
 
 .info_deseprod_c {
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 280px;
-    text-align: align-left;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
-.titulo_poços {
+.titulo_pocos {
     margin-top: 60px;
     right: 300px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     text-decoration: underline #FFCD01;
     left: 55px;;
@@ -397,13 +423,17 @@ a:hover {
     left: 55px;;
     position: relative;
     font-family: sans-serif;
+    margin-left: 1%;
 }
 
-.info_tipos_poços {
+.info_tipos_pocos {
     margin-left: 280px;
-    text-align: align-left;
     font-size: 20px;
     line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+
 }
 
 .subtitulo_pocos {
@@ -423,6 +453,7 @@ a:hover {
     left: 55px;;
     position: relative;
     font-family: sans-serif;
+    margin-left: 1%;
 }
 
 .P_titulo5_c {
@@ -433,7 +464,7 @@ a:hover {
     left: 55px;;
     position: relative;
     font-family: sans-serif;
-
+    margin-left: 1%;
 }
 
 .img_demonstracao_tecnica {
@@ -459,24 +490,23 @@ a:hover {
     text-align: center;
 }
 
-.footer1 {
-    text-align: center;
-    color: #000000;
-    background-color: #f8f8f8;
-    font-size: 15px;
-    font-family: sans-serif;
-    height: 50px;
-    left: 10px;
-    position: relative;
+footer {
+    background: #f8f8f8; /* Cor de fundo do rodapé */
+    padding: 20px;
+ 
 }
 
-.footer2 {
-    text-align: center;
-    color: #9e9e9e;
-    background-color: #f8f8f8;
-    font-size: 15px;
-    font-family: sans-serif;
-    height: 50px;
-    left: 600px;
-    position: relative;
+.dual-color {
+    background: linear-gradient(to right, #000000 50%, #9e9e9e 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 20%;
+    
+}
+
+.dual-color span {
+    background: none;
+    margin-left: 0%;
+    color: #000000; /* Cor do texto para a parte da segunda cor */
 }
