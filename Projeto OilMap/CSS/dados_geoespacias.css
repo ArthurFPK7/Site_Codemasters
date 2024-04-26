@@ -9,6 +9,7 @@
 .image_fundo {
     width: 2000px;
     height: 800px;
+    max-width: 100%;
 }
 
 .Destasques {
@@ -102,15 +103,16 @@ a:hover {
 
 /* CSS do link para pagina de dados geoespaciais */
 .dados_geoespaciais {
-    position: absolute;
-    top: 18%;
+    position: absolute ;
+    top: 42% !important;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 41px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;  
     font-family: sans-serif;
-
 }
 
 
@@ -119,7 +121,7 @@ a:hover {
 .dados_b_P_C_B {
     font-size: smaller;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Kulim bold', sans-serif;
     margin-top: 50px;
     font-weight: bold;
@@ -135,7 +137,7 @@ a:hover {
 }
 
 .dados_b_P_C_B .dados{
-    text-decoration: underline #FFCD01;
+    text-decoration: underline #FFCD01;    
 }
 /* CSS para espaçamento entre a bacias, campos, blocos*/
 
@@ -263,7 +265,7 @@ a:hover {
 .imagens_mapa {
     width: 50%;
     /* Faz a imagem ocupar a largura total da célula */
-    max-width: 200px;
+    max-width: 100%;
     /* Limita a largura máxima da imagem */
     height: auto;
     /* Mantém a proporção da imagem */
@@ -284,6 +286,7 @@ a:hover {
     position: relative;
     color: #008C4A;
     font-family: sans-serif;
+
 
 }
 
@@ -321,6 +324,7 @@ a:hover {
 .img_mapa_demonstracao {
     width: 700px;
     height: 500px;
+    max-width: 100%;
     position: relative;
     top: auto,; /* Ajuste a posição vertical conforme necessário */
     left: 600px; /* Ajuste a posição horizontal conforme necessário */
@@ -410,6 +414,7 @@ a:hover {
 .img_ciclo_demonstracao {
     width: 500px;
     height: 500px;
+    max-width: 100%;
     position: relative;
     top: auto,; /* Ajuste a posição vertical conforme necessário */
     left: 695px; /* Ajuste a posição horizontal conforme necessário */
@@ -470,6 +475,7 @@ a:hover {
 .img_demonstracao_tecnica {
     width: 500px;
     height: 600px;
+    max-width: 100%;
     position: relative;
     top: auto;
     left: 690px;
@@ -479,6 +485,7 @@ a:hover {
 .img_poço_em_producao {
     width: 1000px;
     height: 500px;
+    max-width: 100%;
     position: relative;
     top: auto,; /* Ajuste a posição vertical conforme necessário */
     left: 450px; /* Ajuste a posição horizontal conforme necessário */
@@ -488,6 +495,7 @@ a:hover {
     font-size: 16px;
     font-family: sans-serif;
     text-align: center;
+    max-width: 100%;
 }
 
 footer {
@@ -510,3 +518,10 @@ footer {
     margin-left: 0%;
     color: #000000; /* Cor do texto para a parte da segunda cor */
 }
+
+@media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }
+  } 
+    
