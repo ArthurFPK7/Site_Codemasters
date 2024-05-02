@@ -267,11 +267,11 @@ a:hover {
     /* Faz a imagem ocupar a largura total da célula */
     max-width: 100%;
     /* Limita a largura máxima da imagem */
-    height: auto;
+    height: 250px;
     /* Mantém a proporção da imagem */
-    display: block;
+    margin-top: 20px;
     /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
-    margin: 0 auto;
+    margin-right: 120px;
     /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
     
 }
@@ -281,35 +281,17 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.mapa_de_atuacao1 h3 {
+.mapa_de_atuacao h3 {
     margin-bottom: 5px;
     position: relative;
+    margin-right: 100px;
     color: #008C4A;
     font-family: sans-serif;
 
 
 }
 
-.mapa_de_atuacao2 h3 {
-    margin-bottom: 5px;
-    position: relative;
-    color: #008C4A;
-    font-family: sans-serif;
-}
 
-.mapa_de_atuacao3 h3 {
-    margin-bottom: 5px;
-    position: relative;
-    color: #008C4A;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-.imagens_mapa {
-    max-width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
 
 .inf_blocos {
     margin-left: 280px;
@@ -519,9 +501,135 @@ footer {
     color: #000000; /* Cor do texto para a parte da segunda cor */
 }
 
-@media (max-width: 600px) {
-    .facet_sidebar {
-      display: none;
+@media (max-width: 1441px) {
+    /* .todos_H h6 {
+    bottom: 20px;   
+    font-family: 'Kulim Park', sans-serif;
+    } */
+
+    .img_mapa_demonstracao {
+        width: 700px;
+        height: 500px;
+        max-width: 100%;
+        position: relative;
+        top: auto,; /* Ajuste a posição vertical conforme necessário */
+        left: 370px; /* Ajuste a posição horizontal conforme necessário */
     }
-  } 
+
+    .img_ciclo_demonstracao {
+        width: 500px;
+        height: 500px;
+        max-width: 100%;
+        position: relative;
+        top: auto,; /* Ajuste a posição vertical conforme necessário */
+        left: 480px; /* Ajuste a posição horizontal conforme necessário */
+    }
+
+    .img_demonstracao_tecnica {
+        width: 500px;
+        height: 600px;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 480px;
+    }
+    .img_poço_em_producao {
+        width: 1000px;
+        height: 500px;
+        max-width: 100%;
+        position: relative;
+        top: auto,; /* Ajuste a posição vertical conforme necessário */
+        left: 260px; /* Ajuste a posição horizontal conforme necessário */
+    }
+    .observacao_img_poços {
+        font-size: 16px;
+        font-family: sans-serif;
+        text-align: center;
+        max-width: 100%;
+
+    }
     
+}
+
+@media (max-width: 1024px) {
+    /*TITULOS BACIAS BLOCOS*/
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 200px;
+        transition: 7s;
+    }
+    
+    .dados_b_P_C_B a:last-child {
+        margin-right: 0;
+    }
+    
+    .dados_b_P_C_B .dados{
+        text-decoration: underline #FFCD01;    
+    }
+    /* CSS para espaçamento entre a bacias, campos, blocos*/
+    
+    .dados {
+        color: #000000;
+    }
+
+    /**/
+    
+.imagens_mapa {
+    width: 50%;
+    /* Faz a imagem ocupar a largura total da célula */
+    max-width: 100%;
+    /* Limita a largura máxima da imagem */
+    height: 180px;
+    /* Mantém a proporção da imagem */
+    margin-top: 20px;
+    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
+    margin-right: 120px;
+    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+    
+}
+.img_mapa_demonstracao {
+    width: 700px;
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+    top: auto,; /* Ajuste a posição vertical conforme necessário */
+    left: 170px; /* Ajuste a posição horizontal conforme necessário */
+}
+.img_ciclo_demonstracao {
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+    top: auto,; /* Ajuste a posição vertical conforme necessário */
+    left: 280px; /* Ajuste a posição horizontal conforme necessário */
+}
+
+.img_demonstracao_tecnica {
+    width: 500px;
+    height: 600px;
+    max-width: 100%;
+    position: relative;
+    top: auto;
+    left: 280px;
+}
+.img_poço_em_producao {
+    width: 1000px;
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+    top: auto,; /* Ajuste a posição vertical conforme necessário */
+    left: 5px; /* Ajuste a posição horizontal conforme necessário */
+}
+
+}
+
+
+
