@@ -23,7 +23,7 @@
     color: rgba(255, 255, 255, 0.5);
     padding: 16px;
     text-align: center;
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -583,11 +583,11 @@ footer {
     /**/
     
 .imagens_mapa {
-    width: 50%;
+    width: 60%;
     /* Faz a imagem ocupar a largura total da célula */
     max-width: 100%;
     /* Limita a largura máxima da imagem */
-    height: 180px;
+    height: 160px;
     /* Mantém a proporção da imagem */
     margin-top: 20px;
     /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
@@ -595,41 +595,121 @@ footer {
     /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
     
 }
+
 .img_mapa_demonstracao {
-    width: 700px;
-    height: 500px;
+    width: 60%;
+    height: auto;
     max-width: 100%;
     position: relative;
     top: auto,; /* Ajuste a posição vertical conforme necessário */
     left: 170px; /* Ajuste a posição horizontal conforme necessário */
 }
+
+.observacao_img {
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    position: relative;
+    right: 35px;
+}
+
 .img_ciclo_demonstracao {
-    width: 500px;
-    height: 500px;
+    width: 40%;
+    height: auto;
     max-width: 100%;
     position: relative;
     top: auto,; /* Ajuste a posição vertical conforme necessário */
-    left: 280px; /* Ajuste a posição horizontal conforme necessário */
+    left: 320px; /* Ajuste a posição horizontal conforme necessário */
 }
 
 .img_demonstracao_tecnica {
-    width: 500px;
-    height: 600px;
+    width: 40%;
+    height: auto;
     max-width: 100%;
     position: relative;
     top: auto;
-    left: 280px;
+    left: 300px;
 }
+
 .img_poço_em_producao {
-    width: 1000px;
-    height: 500px;
+    width: 60%;
+    height: auto;
     max-width: 100%;
     position: relative;
     top: auto,; /* Ajuste a posição vertical conforme necessário */
-    left: 5px; /* Ajuste a posição horizontal conforme necessário */
+    left: 215px; /* Ajuste a posição horizontal conforme necessário */
 }
 
+
+
 }
 
+@media (max-width: 1024px) {
 
+    .mapa_de_atuacao h3 {
+        margin-bottom: 5px;
+        position: relative;
+        margin-left: 55px;
+        color: #008C4A;
+        font-family: sans-serif;
+    
+    
+    }
+    
+    .imagens_mapa {
+        width: 130px;
+        /* Faz a imagem ocupar a largura total da célula */
+        max-width: 100%;
+        /* Limita a largura máxima da imagem */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        margin-top: 20px;
+        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
+        margin-left: 20%;
+        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+        
+    }
 
+    .observacao_img {
+        font-size: 10px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+        left: 15px;
+    }
+
+        
+    .img_ciclo_demonstracao {
+        width: 35%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto,; /* Ajuste a posição vertical conforme necessário */
+        left: 250px; /* Ajuste a posição horizontal conforme necessário */
+    }
+
+    .img_demonstracao_tecnica {
+        width: 35%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 250px;
+    }
+
+    .img_poço_em_producao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto,; /* Ajuste a posição vertical conforme necessário */
+        left: 150px; /* Ajuste a posição horizontal conforme necessário */
+    }
+
+    .observacao_img_poços {
+        font-size: 10px;
+        font-family: sans-serif;
+        text-align: center;
+        max-width: 100%;
+    }
+    }
