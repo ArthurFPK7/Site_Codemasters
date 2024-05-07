@@ -645,6 +645,54 @@ footer {
 }
 
 @media (max-width: 1024px) {
+    .image_fundo {
+        width: 2000px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .dados_geoespaciais {
+        position: absolute ;
+        top: 33% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;  
+        font-family: sans-serif;
+    }
+
+    .exp_dados {
+        margin-top: 50px;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+        }
+
+    .info_bacias {
+        font-size: 18px !important;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .p2_b,
+    .p3_b,
+    .p4_b {
+    line-height: 1.5;
+    margin-top: 0;
+    text-align: justify;
+     /* Remover margem superior do parágrafo */
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    }
+    
 
     .mapa_de_atuacao h3 {
         margin-bottom: 5px;
@@ -670,6 +718,16 @@ footer {
         
     }
 
+    .inf_blocos {
+        margin-left: 280px;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 0;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
     .observacao_img {
         font-size: 10px;
         font-family: sans-serif;
@@ -678,6 +736,31 @@ footer {
         left: 15px;
     }
 
+    .info_campos {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    
+    .info_deseprod_c {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .info_pocos {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
         
     .img_ciclo_demonstracao {
         width: 35%;
@@ -685,7 +768,17 @@ footer {
         max-width: 100%;
         position: relative;
         top: auto,; /* Ajuste a posição vertical conforme necessário */
-        left: 250px; /* Ajuste a posição horizontal conforme necessário */
+        left: 340px; /* Ajuste a posição horizontal conforme necessário */
+    }
+
+    .info_tipos_pocos {
+        margin-left: 280px;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    
     }
 
     .img_demonstracao_tecnica {
@@ -694,7 +787,7 @@ footer {
         max-width: 100%;
         position: relative;
         top: auto;
-        left: 250px;
+        left: 330px;
     }
 
     .img_poço_em_producao {
@@ -703,7 +796,7 @@ footer {
         max-width: 100%;
         position: relative;
         top: auto,; /* Ajuste a posição vertical conforme necessário */
-        left: 150px; /* Ajuste a posição horizontal conforme necessário */
+        left: 220px; /* Ajuste a posição horizontal conforme necessário */
     }
 
     .observacao_img_poços {
@@ -712,4 +805,23 @@ footer {
         text-align: center;
         max-width: 100%;
     }
+
+    .botao_geoespaciais {
+        top: 50px;
+        border-radius: 40px;
+        background-color: #FFCD01;
+        padding: 25px;
+        color: aliceblue;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: #FFCD01;
+        
     }
+    
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
