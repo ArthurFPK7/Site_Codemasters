@@ -33,36 +33,6 @@ a:link {
     text-decoration: none;
 }
 
-.em_site_p {
-    position: absolute;
-    color: aliceblue;
-    left: 410px;
-    transform: translateX(-50%);
-    margin: 0;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.acesse_tbm {
-    position: absolute;
-    color: aliceblue;
-    left: 670px;
-    transform: translateX(-50%);
-    margin: 0;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.todos_A {
-    color: aliceblue;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
 .todos_H h6 {
     margin-bottom: 10px;
     font-family: 'Kulim Park', sans-serif;
@@ -71,12 +41,13 @@ a:link {
 .todos_H {
     position: absolute;
     width: 8000px;
-    left: 20px;
-    bottom: 0;
+    left: 40px;
+    bottom: 40px;
     margin: 850px;
     color: rgb(255, 255, 255);
     display: flex;
     font-size: 25px;
+    margin-top: 20px;
 }
 
 .dadosgeo {
@@ -297,38 +268,96 @@ a:hover {
 }
 
 .imagens_mapa {
-    width: 50%;
+    width: 36%;
     /* Faz a imagem ocupar a largura total da célula */
-    max-width: 100%;
     /* Limita a largura máxima da imagem */
-    height: 250px;
+    height: auto;
     /* Mantém a proporção da imagem */
-    margin-top: 20px;
+    margin-top: 100px;
     /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
-    margin-right: 120px;
+    left:300px;
     /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
-
+    position: relative;
 }
+
+.imagens_mapa3 {
+    width: 40%;
+    /* Faz a imagem ocupar a largura total da célula */
+    /* Limita a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-top: 100px;
+    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
+    left:460px;
+    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+    position: relative;
+}
+
+.imagens_mapa2 {
+    width: 40%;
+    /* Faz a imagem ocupar a largura total da célula */
+    /* Limita a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-top: 100px;
+    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
+    left:290px;
+    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+    position: relative;
+}
+
+
 
 .titulo_mapas {
     display: flex;
     flex-wrap: wrap;
 }
 
-.map_atuacao {
+.titulo_mapa_de_atuacao{
     display: flex;
-    left: 200px;
-}
-
-.mapa_de_atuacao h3 {
+    flex-wrap: wrap;
     margin-bottom: 5px;
+    margin-top: 10px;
     position: relative;
     margin-right: 100px;
     color: #008C4A;
     font-family: sans-serif;
-    left: 270px;
+    left: 280px;
 
+    
 }
+.titulo_mapa_de_atuacao2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 100px;
+    color: #008C4A;
+    font-family: sans-serif;
+    left: 680px;
+    
+}
+
+.titulo_mapa_de_atuacao3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 100px;
+    color: #008C4A;
+    font-family: sans-serif;
+    left:1000px;
+    
+}
+
+
+.map_atuacao {
+    display: flex;
+    left:500px;
+}
+
 
 
 
@@ -347,7 +376,7 @@ a:hover {
     height: auto;
     max-width: 100%;
     position: relative;
-    top: auto, ;
+    top: auto;
     /* Ajuste a posição vertical conforme necessário */
     left: 600px;
     /* Ajuste a posição horizontal conforme necessário */
