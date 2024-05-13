@@ -206,25 +206,139 @@ a:hover {
     margin-right: 4%;
 }
 
-
+/* BACIA SANTOS */
 .titulo_Bacias {
     color: #FFCD01;
     font-size: 30px;
     margin-top: 60px;
     /* Remover margem superior do título */
-    text-align: left;
     font-family: sans-serif;
-    margin-left: 11%;
-
+    margin-left: 9%;
 }
 
 .tudo_bacias {
     padding: 10px;
     /* Adicionar um espaçamento interno */
-    text-align: center;
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
+    width: 76%;
+}
+
+.titulo_mapa_de_atuacao{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 100px;
+    color: #008C4A;
+    font-family: sans-serif;
+    left: 200px;
+}
+
+.imagens_mapa {
+    width: 50%;
+    /* Faz a imagem ocupar a largura total da célula */
+    /* Limita a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-top: 10px;
+    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
+    left:100px;
+    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+    position: relative;
+}
+
+/* BACIA CAMPOS */
+
+.titulo_Bacias2 {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 60px;
+    /* Remover margem superior do título */
+    font-family: sans-serif;
+}
+
+.tudo_bacias2 {
+    padding: 10px;
+    /* Adicionar um espaçamento interno */
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width:82%;
+    margin-left:-62px;
+}
+
+.titulo_mapa_de_atuacao2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 65px;
+    position: relative;
+    margin-right: 100px;
+    color: #008C4A;
+    font-family: sans-serif;
+    left: 140px;
+    
+}
+.imagens_mapa3 {
+    width: 40%;
+    /* Faz a imagem ocupar a largura total da célula */
+    /* Limita a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-top: 15px;
+    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
+    left:100px;
+    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+    position: relative;
+}
+
+
+
+/* OUTRAS BACIAS */
+.titulo_Bacias3 {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 60px;
+    /* Remover margem superior do título */
+    font-family: sans-serif;
+}
+
+.tudo_bacias3 {
+    padding: 10px;
+    /* Adicionar um espaçamento interno */
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin-left: -60px;
+}
+
+.titulo_mapa_de_atuacao3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 240px;
+    position: relative;
+    margin-right: 100px;
+    color: #008C4A;
+    font-family: sans-serif;
+    left:120px;
+    
+}
+.imagens_mapa2 {
+    width: 70%;
+    /* Faz a imagem ocupar a largura total da célula */
+    /* Limita a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-top: 10px;
+    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
+    left:40px;
+    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+    position: relative;
 }
 
 .p2_b,
@@ -257,104 +371,10 @@ a:hover {
     /* Faz a tabela ocupar a largura total do container */
     border-collapse: collapse;
     /* Remove o espaço entre as bordas das células */
-}
-
-.titulo_mapas {
     text-align: center;
     /* Centraliza o conteúdo das células */
     padding: 10px;
     /* Adiciona espaçamento interno às células */
-}
-
-.imagens_mapa {
-    width: 36%;
-    /* Faz a imagem ocupar a largura total da célula */
-    /* Limita a largura máxima da imagem */
-    height: auto;
-    /* Mantém a proporção da imagem */
-    margin-top: 100px;
-    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
-    left:300px;
-    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
-    position: relative;
-}
-
-.imagens_mapa3 {
-    width: 40%;
-    /* Faz a imagem ocupar a largura total da célula */
-    /* Limita a largura máxima da imagem */
-    height: auto;
-    /* Mantém a proporção da imagem */
-    margin-top: 100px;
-    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
-    left:460px;
-    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
-    position: relative;
-}
-
-.imagens_mapa2 {
-    width: 40%;
-    /* Faz a imagem ocupar a largura total da célula */
-    /* Limita a largura máxima da imagem */
-    height: auto;
-    /* Mantém a proporção da imagem */
-    margin-top: 100px;
-    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
-    left:290px;
-    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
-    position: relative;
-}
-
-
-
-.titulo_mapas {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.titulo_mapa_de_atuacao{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    position: relative;
-    margin-right: 100px;
-    color: #008C4A;
-    font-family: sans-serif;
-    left: 280px;
-
-    
-}
-.titulo_mapa_de_atuacao2{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    position: relative;
-    margin-right: 100px;
-    color: #008C4A;
-    font-family: sans-serif;
-    left: 680px;
-    
-}
-
-.titulo_mapa_de_atuacao3{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    position: relative;
-    margin-right: 100px;
-    color: #008C4A;
-    font-family: sans-serif;
-    left:1000px;
-    
-}
-
-
-.map_atuacao {
-    display: flex;
-    left:500px;
 }
 
 
@@ -803,6 +823,23 @@ footer {
 
     }
 
+    /* BACIA SANTOS */
+    .titulo_Bacias {
+        color: #FFCD01;
+        font-size: 25px !important;
+        margin-top: 60px;
+        /* Remover margem superior do título */
+        font-family: sans-serif;
+    }
+    .tudo_bacias {
+        padding: 10px;
+        /* Adicionar um espaçamento interno */
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width:90%;
+        margin-left:-10px;
+    }
     .titulo_mapa_de_atuacao{
         display: flex;
         flex-wrap: wrap;
@@ -814,33 +851,8 @@ footer {
         font-family: sans-serif;
         left: 120px;
         font-size: 14px;
-        
-    }
-    .titulo_mapa_de_atuacao2{
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 5px;
-        margin-top: 10px;
-        position: relative;
-        margin-right: 100px;
-        color: #008C4A;
-        font-family: sans-serif;
-        left: 310px;
-        font-size: 14px;
     }
     
-    .titulo_mapa_de_atuacao3{
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 5px;
-        margin-top: 10px;
-        position: relative;
-        margin-right: 100px;
-        color: #008C4A;
-        font-family: sans-serif;
-        left:370px;
-        font-size: 14px;
-    }
     
     .imagens_mapa {
         width: 36%;
@@ -855,6 +867,37 @@ footer {
         position: relative;
     }
 
+    /* BACIA CAMPOS */
+    .titulo_Bacias2 {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 60px;
+        /* Remover margem superior do título */
+        font-family: sans-serif;
+    }
+    .tudo_bacias2 {
+        padding: 10px;
+        /* Adicionar um espaçamento interno */
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width:80%;
+        margin-left:-45px;
+    }
+    
+    .titulo_mapa_de_atuacao2{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 310px;
+        font-size: 14px;
+    }
+    
     .imagens_mapa3 {
         width: 40%;
         /* Faz a imagem ocupar a largura total da célula */
@@ -868,6 +911,36 @@ footer {
         position: relative;
     }
 
+    /* OUTRAS BACIAS */
+    .titulo_Bacias3 {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 60px;
+        /* Remover margem superior do título */
+        font-family: sans-serif;
+    }
+    .tudo_bacias3 {
+        padding: 10px;
+        /* Adicionar um espaçamento interno */
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width:90%;
+        margin-left:-20px;
+    }
+    .titulo_mapa_de_atuacao3{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left:370px;
+        font-size: 14px;
+    }
+    
     .imagens_mapa2 {
         width: 40%;
         /* Faz a imagem ocupar a largura total da célula */
@@ -1018,6 +1091,7 @@ footer {
         border-radius: 10px;
         font-family: sans-serif;
     }
+    
 
     .conj_tit_bac_santos {
         display: block;
@@ -1185,24 +1259,32 @@ footer {
         font-weight: bold;
     }
 
-    .conj_tit_bac_santos {
-        display: block;
-        width: 33%;
-    }
-    
-    .conj_tit_bac_campos {
-        display: block;
-        width: 33%;
-    }
-    
-    .conj_tit_bac_outras {
+    .conjuntos_bacias_geral{
         display: block;
         width: 33%;
     }
 
+    .conj_tit_bac_santos {
+        display: block;
+        
+        width: auto;
+    }
+    
+    .conj_tit_bac_campos {
+        display: block;
+        
+        width: auto;
+    }
+    
+    .conj_tit_bac_outras {
+        display: block;
+        
+        width: auto;
+    }
+
     .titulo_mapa_de_atuacao{
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
+        /* flex-wrap: wrap; */
         margin-bottom: 5px;
         margin-top: 10px;
         position: relative;
@@ -1214,8 +1296,8 @@ footer {
         
     }
     .titulo_mapa_de_atuacao2{
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
+        /* flex-wrap: wrap; */
         margin-bottom: 5px;
         margin-top: 10px;
         position: relative;
@@ -1227,8 +1309,8 @@ footer {
     }
     
     .titulo_mapa_de_atuacao3{
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
+        /* flex-wrap: wrap; */
         margin-bottom: 5px;
         margin-top: 10px;
         position: relative;
@@ -1277,7 +1359,7 @@ footer {
         /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
-    
+
     .botao_geoespaciais {
         top: 60px;
         border-radius: 50px;
