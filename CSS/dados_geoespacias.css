@@ -966,6 +966,10 @@ footer {
     }
 
     /* BACIA SANTOS */
+    .conj_tit_bac_santos {
+        display: block;
+        width: 100%;
+    }
     .titulo_Bacias {
         color: #FFCD01;
         font-size: 25px !important;
@@ -980,7 +984,7 @@ footer {
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
+        width: 100%;
         margin-left: -10px;
     }
 
@@ -1011,23 +1015,28 @@ footer {
     }
 
     /* BACIA CAMPOS */
+    .conj_tit_bac_campos {
+        display: block;
+        width: 100%;
+    }
+
     .titulo_Bacias2 {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 60px;
         /* Remover margem superior do título */
         font-family: sans-serif;
+        margin-left: 20px
     }
-    titulo_Bacias2 h3
 
     .tudo_bacias2 {
-        padding: 10px;
+        
         /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
-        margin-left: -45px;
+        width: 100%;
+        margin-left: -20px !important;
     }
 
     .titulo_mapa_de_atuacao2 {
@@ -1057,6 +1066,11 @@ footer {
     }
 
     /* OUTRAS BACIAS */
+    .conj_tit_bac_outras {
+        display: block;
+        width: 100%;
+    }
+
     .titulo_Bacias3 {
         color: #FFCD01;
         font-size: 25px;
@@ -1072,8 +1086,8 @@ footer {
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
-        margin-left: -20px;
+        width: 100%;
+        margin-left: -40px;
     }
 
     .titulo_mapa_de_atuacao3 {
