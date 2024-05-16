@@ -181,7 +181,6 @@ a:hover {
     font-family: 'Oswald', sans-serif;
     text-decoration: underline #FFCD01;
     left: 55px;
-    ;
     position: relative;
 }
 
@@ -191,11 +190,8 @@ a:hover {
 }
 
 #ifo_bacias {
-
-    /* Divide a largura igualmente entre as células */
     vertical-align: top;
-    /* Alinhar o conteúdo ao topo */
-    display: ;
+    /* a a */
 }
 
 .info_bacias {
@@ -211,14 +207,12 @@ a:hover {
     color: #FFCD01;
     font-size: 30px;
     margin-top: 60px;
-    /* Remover margem superior do título */
     font-family: sans-serif;
     margin-left: 9%;
 }
 
 .tudo_bacias {
     padding: 10px;
-    /* Adicionar um espaçamento interno */
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -239,14 +233,9 @@ a:hover {
 
 .imagens_mapa {
     width: 50%;
-    /* Faz a imagem ocupar a largura total da célula */
-    /* Limita a largura máxima da imagem */
     height: auto;
-    /* Mantém a proporção da imagem */
     margin-top: 10px;
-    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
     left: 100px;
-    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
     position: relative;
 }
 
@@ -256,13 +245,11 @@ a:hover {
     color: #FFCD01;
     font-size: 30px;
     margin-top: 60px;
-    /* Remover margem superior do título */
     font-family: sans-serif;
 }
 
 .tudo_bacias2 {
     padding: 10px;
-    /* Adicionar um espaçamento interno */
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -285,14 +272,9 @@ a:hover {
 
 .imagens_mapa3 {
     width: 40%;
-    /* Faz a imagem ocupar a largura total da célula */
-    /* Limita a largura máxima da imagem */
     height: auto;
-    /* Mantém a proporção da imagem */
     margin-top: 15px;
-    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
     left: 100px;
-    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
     position: relative;
 }
 
@@ -303,13 +285,11 @@ a:hover {
     color: #FFCD01;
     font-size: 30px;
     margin-top: 60px;
-    /* Remover margem superior do título */
     font-family: sans-serif;
 }
 
 .tudo_bacias3 {
     padding: 10px;
-    /* Adicionar um espaçamento interno */
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -332,14 +312,9 @@ a:hover {
 
 .imagens_mapa2 {
     width: 70%;
-    /* Faz a imagem ocupar a largura total da célula */
-    /* Limita a largura máxima da imagem */
     height: auto;
-    /* Mantém a proporção da imagem */
     margin-top: 10px;
-    /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
     left: 40px;
-    /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
     position: relative;
 }
 
@@ -349,7 +324,6 @@ a:hover {
     line-height: 1.5;
     margin-top: 0;
     text-align: justify;
-    /* Remover margem superior do parágrafo */
     margin-left: 10%;
     margin-right: 10%;
     font-size: 20px;
@@ -370,13 +344,9 @@ a:hover {
 
 .titulo_mapas {
     width: 100%;
-    /* Faz a tabela ocupar a largura total do container */
     border-collapse: collapse;
-    /* Remove o espaço entre as bordas das células */
     text-align: center;
-    /* Centraliza o conteúdo das células */
     padding: 10px;
-    /* Adiciona espaçamento interno às células */
 }
 
 .inf_blocos {
@@ -395,10 +365,7 @@ a:hover {
     max-width: 100%;
     position: relative;
     top: auto;
-    /* Ajuste a posição vertical conforme necessário */
     left: 600px;
-    /* Ajuste a posição horizontal conforme necessário */
-
 }
 
 .observacao_img {
@@ -412,7 +379,6 @@ a:hover {
     color: #FFCD01;
     font-size: 30px;
     margin-top: 20px;
-    /* Remover margem superior do título */
     left: 55px;
     position: relative;
     font-family: sans-serif;
@@ -478,28 +444,23 @@ a:hover {
     font-family: sans-serif;
     text-decoration: underline #FFCD01;
     left: 55px;
-    ;
     position: relative;
 }
 
 .img_ciclo_demonstracao {
     width: 500px;
-    height: 500px;
+    height: auto;
     max-width: 100%;
     position: relative;
     top: auto, ;
-    /* Ajuste a posição vertical conforme necessário */
     left: 695px;
-    /* Ajuste a posição horizontal conforme necessário */
 }
 
 .P_titulo3_c {
     color: #008C4A;
     font-size: 30px;
     margin-top: 20px;
-    /* Remover margem superior do título */
     left: 55px;
-    ;
     position: relative;
     font-family: sans-serif;
     margin-left: 1%;
@@ -528,9 +489,7 @@ a:hover {
     color: #FFCD01;
     font-size: 30px;
     margin-top: 20px;
-    /* Remover margem superior do título */
     left: 55px;
-    ;
     position: relative;
     font-family: sans-serif;
     margin-left: 1%;
@@ -540,9 +499,7 @@ a:hover {
     color: #008C4A;
     font-size: 30px;
     margin-top: 20px;
-    /* Remover margem superior do título */
     left: 55px;
-    ;
     position: relative;
     font-family: sans-serif;
     margin-left: 1%;
@@ -559,13 +516,11 @@ a:hover {
 
 .img_poço_em_producao {
     width: 1000px;
-    height: 500px;
+    height: auto;
     max-width: 100%;
     position: relative;
-    top: auto, ;
-    /* Ajuste a posição vertical conforme necessário */
+    top: auto;
     left: 450px;
-    /* Ajuste a posição horizontal conforme necessário */
 }
 
 .observacao_img_poços {
@@ -577,9 +532,7 @@ a:hover {
 
 footer {
     background: #f8f8f8;
-    /* Cor de fundo do rodapé */
     padding: 20px;
-
 }
 
 .dual-color {
@@ -595,7 +548,6 @@ footer {
     background: none;
     margin-left: 0%;
     color: #000000;
-    /* Cor do texto para a parte da segunda cor */
 }
 
 @media (max-width: 1440px) {
@@ -609,14 +561,12 @@ footer {
         color: #FFCD01;
         font-size: 30px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 9%;
     }
 
     .tudo_bacias {
         padding: 10px;
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -637,14 +587,9 @@ footer {
 
     .imagens_mapa {
         width: 50%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 80px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -654,13 +599,11 @@ footer {
         color: #FFCD01;
         font-size: 30px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
     }
 
     .tudo_bacias2 {
         padding: 10px;
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -683,14 +626,9 @@ footer {
 
     .imagens_mapa3 {
         width: 40%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 70px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -701,13 +639,11 @@ footer {
         color: #FFCD01;
         font-size: 30px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
     }
 
     .tudo_bacias3 {
         padding: 10px;
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -730,14 +666,9 @@ footer {
 
     .imagens_mapa2 {
         width: 70%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 40px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -747,9 +678,7 @@ footer {
         max-width: 100%;
         position: relative;
         top: auto;
-        /* Ajuste a posição vertical conforme necessário */
         left: 400px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .observacao_img {
@@ -762,13 +691,11 @@ footer {
 
     .img_ciclo_demonstracao {
         width: 500px;
-        height: 500px;
+        height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 480px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .img_demonstracao_tecnica {
@@ -785,10 +712,8 @@ footer {
         height: 500px;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 260px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .observacao_img_poços {
@@ -836,16 +761,10 @@ footer {
 
     .imagens_mapa {
         width: 60%;
-        /* Faz a imagem ocupar a largura total da célula */
         max-width: 100%;
-        /* Limita a largura máxima da imagem */
         height: 160px;
-        /* Mantém a proporção da imagem */
         margin-top: 20px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         margin-right: 120px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
-
     }
 
     .img_mapa_demonstracao {
@@ -853,10 +772,8 @@ footer {
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 170px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .observacao_img {
@@ -872,10 +789,8 @@ footer {
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 320px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .img_demonstracao_tecnica {
@@ -892,10 +807,8 @@ footer {
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 215px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
 
@@ -945,7 +858,6 @@ footer {
         line-height: 1.5;
         margin-top: 0;
         text-align: justify;
-        /* Remover margem superior do parágrafo */
         margin-left: 10%;
         margin-right: 10%;
         font-size: 16px;
@@ -970,14 +882,12 @@ footer {
         color: #FFCD01;
         font-size: 25px !important;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 50px;
     }
 
     .tudo_bacias {
         padding: 10px;
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -1000,14 +910,9 @@ footer {
 
     .imagens_mapa {
         width: 36%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 120px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -1021,13 +926,11 @@ footer {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 30px
     }
 
     .tudo_bacias2 {
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -1050,14 +953,9 @@ footer {
 
     .imagens_mapa3 {
         width: 40%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 65px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -1071,14 +969,12 @@ footer {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 10px;
     }
 
     .tudo_bacias3 {
         padding: 10px;
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -1102,14 +998,9 @@ footer {
 
     .imagens_mapa2 {
         width: 40%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 80px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -1128,10 +1019,8 @@ footer {
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 270px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .observacao_img {
@@ -1173,10 +1062,8 @@ footer {
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 340px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .info_tipos_pocos {
@@ -1203,10 +1090,8 @@ footer {
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 210px !important;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .observacao_img_poços {
@@ -1261,14 +1146,12 @@ footer {
         color: #FFCD01;
         font-size: 25px !important;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 50px;
     }
 
     .tudo_bacias {
         padding: 10px;
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -1291,14 +1174,9 @@ footer {
 
     .imagens_mapa {
         width: 70%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 60px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -1312,13 +1190,11 @@ footer {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 30px
     }
 
     .tudo_bacias2 {
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -1341,14 +1217,9 @@ footer {
 
     .imagens_mapa3 {
         width: 60%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 40px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -1362,14 +1233,12 @@ footer {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 10px;
     }
 
     .tudo_bacias3 {
         padding: 10px;
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         margin-top: 27px;
         display: flex;
@@ -1393,14 +1262,9 @@ footer {
 
     .imagens_mapa2 {
         width: 60%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 30px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -1409,17 +1273,14 @@ footer {
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 140px;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 
     .P_titulo2_c {
         color: #FFCD01;
         font-size: 30px;
         margin-top: 10px;
-        /* Remover margem superior do título */
         left: 55px;
         position: relative;
         font-family: sans-serif;
@@ -1435,14 +1296,12 @@ footer {
     }
 
     .img_ciclo_demonstracao {
-        width: 35%;
+        width: 50%;
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
-        left: 260px;
-        /* Ajuste a posição horizontal conforme necessário */
+        top: auto;
+        left: 200px;
     }
 
     .img_demonstracao_tecnica {
@@ -1459,10 +1318,8 @@ footer {
         height: auto;
         max-width: 100%;
         position: relative;
-        top: auto, ;
-        /* Ajuste a posição vertical conforme necessário */
+        top: auto;
         left: 155px !important;
-        /* Ajuste a posição horizontal conforme necessário */
     }
 }
 
@@ -1475,7 +1332,7 @@ footer {
 
     .dados_geoespaciais {
         position: absolute;
-        top: 17% !important;
+        top: 13% !important;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -1486,6 +1343,37 @@ footer {
         font-family: sans-serif;
     }
 
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+        word-spacing: 1px !important;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 200px;
+        transition: 7s;
+    }
+    
+    .dados_b_P_C_B a:last-child {
+        margin-right: 0;
+
+    }
+    
+    .dados_b_P_C_B .dados {
+        text-decoration: underline #FFCD01;
+    }
+    
+    /* CSS para espaçamento entre a bacias, campos, blocos*/
+    
+    .dados {
+        color: #000000;
+    }
+
+    
     .P_titulo_b {
         left: 0%;
         margin-top: 60px;
@@ -1512,13 +1400,11 @@ footer {
         color: #FFCD01;
         font-size: 25px !important;
         margin-top: 40px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 40px;
     }
 
     .tudo_bacias {
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -1542,14 +1428,9 @@ footer {
 
     .imagens_mapa {
         width: 70%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 60px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -1564,13 +1445,11 @@ footer {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 40px
     }
 
     .tudo_bacias2 {
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -1593,14 +1472,9 @@ footer {
 
     .imagens_mapa3 {
         width: 60%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
         left: 80px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
         position: relative;
     }
 
@@ -1614,13 +1488,11 @@ footer {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 60px;
-        /* Remover margem superior do título */
         font-family: sans-serif;
         margin-left: 40px;
     }
 
     .tudo_bacias3 {
-        /* Adicionar um espaçamento interno */
         font-size: 20px;
         margin-top: 0% !important;
         display: flex;
@@ -1641,19 +1513,15 @@ footer {
         left: 150px;
         font-size: 14px;
     }
-
     .imagens_mapa2 {
-        width: 60%;
-        /* Faz a imagem ocupar a largura total da célula */
-        /* Limita a largura máxima da imagem */
+        width: 80%;
         height: auto;
-        /* Mantém a proporção da imagem */
         margin-top: 10px;
-        /* Garante que a imagem seja tratada como um bloco, ajudando no alinhamento */
-        left: 90px;
-        /* Centraliza a imagem horizontalmente na célula, se ela não ocupar a largura total */
+        left: 40px;
         position: relative;
     }
+
+    /* BLOCOS */
     .titulo_blocos {
         margin-top: 60px;
         right: 300px;
@@ -1668,7 +1536,6 @@ footer {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 20px;
-        /* Remover margem superior do título */
         left: 0px;
         position: relative;
         font-family: sans-serif;
@@ -1680,9 +1547,7 @@ footer {
         max-width: 100%;
         position: relative;
         top: auto;
-        /* Ajuste a posição vertical conforme necessário */
-        left: 40px;;
-        /* Ajuste a posição horizontal conforme necessário */
+        left: 40px;
     }
     .observacao_img {
         font-size: 7px;
@@ -1704,23 +1569,301 @@ footer {
         color: #FFCD01;
         font-size: 25px;
         margin-top: 15px;
-        /* Remover margem superior do título */
         left: 0px;
         position: relative;
         font-family: sans-serif;
         margin-left: 20px;
     }
+    .titulo_pocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 15px;
+        position: relative;
+    }
+    .img_ciclo_demonstracao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 90px;
+    }
+
+    .P_titulo3_c {
+        color: #008C4A;
+        font-size: 25px;
+        margin-top: 20px;
+        left: 15px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 1%;
+    }
+    .P_titulo4_c {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 15px;
+        left: 0px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 20px;
+    }
+    .img_demonstracao_tecnica {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 90px;
+    }
+    .P_titulo5_c {
+        color: #008C4A;
+        font-size: 25px;
+        margin-top: 20px;
+        left: 15px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 1%;
+    }
+    .img_poço_em_producao {
+        width: 400px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 11px !important;
+    }
+    .observacao_img_poços {
+        font-size: 7px;
+        font-family: sans-serif;
+        max-width: 100%;
+        left: 6px;
+    }
     .botao_geoespaciais {
         top: 60px;
         border-radius: 50px;
         background-color: #FFCD01;
-        padding: 25px;
+        padding:15px;
         color: aliceblue;
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         cursor: pointer;
         font-weight: bold;
         border-color: #FFCD01;
     }
 
+}
+@media (max-width: 375px) {
+    .titulo_mapa_de_atuacao {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 120px !important;
+        font-size: 14px;
+    }
+    .titulo_mapa_de_atuacao2 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 120px !important;
+        font-size: 14px;
+    }
+    .titulo_mapa_de_atuacao3 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 120px !important;
+        font-size: 14px;
+    }
+    .imagens_mapa2 {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+        left: 30px;
+        position: relative;
+    }
+    .img_mapa_demonstracao {
+        width: 350px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 13px;
+    }
+    .observacao_img {
+        font-size: 7px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+        left: 4px;
+    }
+    .img_ciclo_demonstracao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 80px;
+    }
+    .img_demonstracao_tecnica {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 80px;
+    }
+    .img_poço_em_producao {
+        width: 350px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 12px !important;
+    }
+    .botao_geoespaciais {
+        margin-top: 5px;
+        border-radius: 50px;
+        background-color: #FFCD01;
+        padding:15px;
+        color: aliceblue;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: #FFCD01;
+    }
+}
+@media (max-width: 320px) {
+    .dados_geoespaciais {
+        position: absolute;
+        top: 11% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        font-family: sans-serif;
+    }
+    .titulo_mapa_de_atuacao {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 100px !important;
+        font-size: 14px;
+    }
+    .imagens_mapa {
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+        left: 45px;
+        position: relative;
+    }
+
+    .titulo_mapa_de_atuacao2 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 100px !important;
+        font-size: 14px;
+    }
+    .imagens_mapa3 {
+        width: 60%;
+        height: auto;
+        margin-top: 10px;
+        left: 60px;
+        position: relative;
+    }
+    .titulo_mapa_de_atuacao3 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 100px !important;
+        font-size: 14px;
+    }
+    .img_mapa_demonstracao {
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 10px;
+    }
+    .observacao_img {
+        font-size: 6px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+    
+    }
+    .img_ciclo_demonstracao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 70px;
+    }
+    .img_demonstracao_tecnica {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 65px;
+    }
+    .img_poço_em_producao {
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 10px !important;
+    }
+    .botao_geoespaciais {
+        top: 60px;
+        border-radius: 40px;
+        background-color: #FFCD01;
+        padding:10px!important;
+        color: aliceblue;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: #FFCD01;
+    }
 }
