@@ -1254,7 +1254,7 @@ ul.margin-icons li.item-menu a .icon>i {
         width: 100%;
         height: 45vh;
         margin-left: 0px;
-        margin-right: 50px;
+        margin-right: -50px;
         left:20px;
         position: relative;
         border: 1vh solid #d7dbdbcc;
@@ -1415,4 +1415,87 @@ ul.margin-icons li.item-menu a .icon>i {
         margin-top: 30px;
 
     }
+    /* Modal */
+    .modal {
+        display: none;
+        position: relative;
+        z-index: 1;
+        margin-top: -2110px;
+        left: 72px;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .acesse_tambem {
+        width: 30px !important;
+        height: auto;
+        top: 10px;
+        left: -70px;
+        position: relative;
+    }
+
+
+    .card {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 50%;
+        left: 30px;
+        top: -210px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .card2 {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 50%;
+        left: 100px;
+        top: -190px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .card3 {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 50%;
+        left: 65px;
+        top: -170px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .cards-container {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 25px;
+        left: 40px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+    .logo_petro {
+        margin-left: 150px;
+        top: -210px;
+        position: relative;
+    }
+
 }
+
