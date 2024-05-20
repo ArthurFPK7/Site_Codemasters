@@ -1,136 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/dados.css">
-    <script src="JS/petrobras.js"></script>
-    <title>Dados Geoespaciais</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="JS/petrobras.js" defer></script>
+    <title>teste</title>
 </head>
+
 <body>
-        <!-- links de acesso petrobras -->
-        <header class="barra">
-            <a class= "todos_A" href="https://transparencia.petrobras.com.br/?_gl=1*1a2fy0w*_ga*ODQ0MzU2ODMxLjE3MDY3MTkyNzk.*_ga_9TG5WL85H3*MTcwNjcyMzg0OS4yLjEuMTcwNjcyMzk0Ny40MS4wLjA.">
-                <h6>ACESSO À INFORMAÇÃO</h6> 
-            </a>
-            <a class= "todos_A" href="https://www.investidorpetrobras.com.br/?_gl=1%2A9i2p93%2A_ga%2AODQ0MzU2ODMxLjE3MDY3MTkyNzk.%2A_ga_9TG5WL85H3%2AMTcwNjcyMzg0OS4yLjEuMTcwNjcyNDMzMC42MC4wLjA.">
-                <h6>INVESTIDORES</h6> 
-            </a>
-            <a class= "todos_A" href="https://agencia.petrobras.com.br/?_gl=1*yuv0vg*_ga*ODQ0MzU2ODMxLjE3MDY3MTkyNzk.*_ga_9TG5WL85H3*MTcwNjcyMzg0OS4yLjEuMTcwNjcyNTAxNi42MC4wLjA.">
-                <h6>IMPRENSA</h6> 
-            </a>
-            <a class= "todos_A" href="https://www.investidorpetrobras.com.br/?_gl=1%2A9i2p93%2A_ga%2AODQ0MzU2ODMxLjE3MDY3MTkyNzk.%2A_ga_9TG5WL85H3%2AMTcwNjcyMzg0OS4yLjEuMTcwNjcyNDMzMC42MC4wLjA.">
-                <h6>FORNECEDORES</h6> 
-            </a>
+    <header>
+        <img class="logo_header" src="IMAGENS/logo.svg" alt="">
+    </header>
 
-        <!-- links de acesso petrobras --> 
+    <div class="titulogeral">
+        <h2>FAÇA SUA PESQUISA</h2>
+    </div>
 
-            <h6 class="em_site_p">Você está em: SITE PETROBRAS</h6>
-            <h6 class="acesse_tbm">Acesse também:</h6>
-            
-        </header>
-        <div class="dados_geoespaciais">
-            <div class="blocodadosgeoespaciais">
-                <!-- DADOS GEOESPACIAS -->
-                <p>DADOS GEOESPACIAS PETROBRAS</p>
-                <!-- DADOS GEOESPACIAS -->
+    <div class="sanduba">
+        <nav class="menu_leteral">
+            <div class="btn-expandir">
+                <i class="bi bi-list"></i>
+            </div>
+            <ul class="margin-icons">
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-house-door-fill"></i></span>
+                        <span class="txt-link">Início</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-exclamation-triangle-fill"></i></span>
+                        <span class="txt-link">Dúvidas</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="dados_geoespaciais.html">
+                        <span class="icon"><i class="bi bi-stickies"></i></span>
+                        <span class="txt-link">Dados</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="pai">
+            <div class="BACIAS">
+                <div class="tituloselects_Bac">
+                    <p>BACIAS</p>
+                </div>
+                <select id="bacias" class="campos_pesquisa_bacias">
+                    <option class="opcao" value="valor0">SELECIONE UMA BACIA PRIMEIRO...</option>
+                    <option class="opcao" value="valor1">Paraná</option>
+                    <option class="opcao" value="valor2">São Paulo</option>
+                    <option class="opcao" value="valor3">Rio de janeiro</option>
+                    <option class="opcao" value="valor4">Bahia</option>
+                    <option class="opcao" value="valor5">Mato Grosso</option>
+                </select>
+            </div>
+
+            <div class="BLOCO">
+                <div class="tituloselects_Bl">
+                    <p>BLOCOS</p>
+                </div>
+                <select id="bloco" class="campos_pesquisa_bloco">
+                    <option class="opcao" value="valor0">SELECIONE UMA BLOCO PRIMEIRO....</option>
+                    <option class="opcao" value="valor1">BM-S-13</option>
+                    <option class="opcao" value="valor2">BM-S-3</option>
+                    <option class="opcao" value="valor3">GUARA_SUL</option>
+                    <option class="opcao" value="valor4">S-M-673</option>
+                </select>
+            </div>
+
+            <div class="CAMPO">
+                <div class="tituloselects_C">
+                    <p>CAMPOS</p>
+                </div>
+                <select id="campo" class="campos_pesquisa_campo">
+                    <option class="opcao" value="valor1">SELECIONE UM CAMPO PRIMEIRO...</option>
+                    <option class="opcao" value="valor2">SSPH</option>
+                    <option class="opcao" value="valor3">PRC</option>
+                    <option class="opcao" value="valor4">BAC</option>
+                    <option class="opcao" value="valor4">GOI</option>
+                </select>
+            </div>
+
+            <div class="POÇO">
+                <div class="tituloselects_P">
+                    <p>POÇOS</p>
+                </div>
+                <select id="pocoSelect" class="campos_pesquisa_pocos">
+                    <option class="opcao" value="valor1">SELECIONE UM POÇO PRIMEIRO...</option>
+                    <option class="opcao" value="valor2">1-BRSA-1381-SPS</option>
+                    <option class="opcao" value="valor3">1-BSS-70-BS</option>
+                    <option class="opcao" value="valor4">1-ELPS-14A-SPS</option>
+                    <option class="opcao" value="valor4">1-MRK-2A-SPS</option>
+                </select>
+                <div class="botoes">
+                    <button class="pesquisar" onclick="pesquisar()">PESQUISAR</button>
+                    <button class="limpar" onclick="limpar()">LIMPAR</button>
+                </div>
+
             </div>
         </div>
-    
-        <div id="div_fundo" class="fundo">
-            <img src="IMAGENS/imagemdadoshtml.jpg"  alt="" id="img_fundo" class="image_fundo">
-        </div>
-        <!-- DADOS BARRA -->
-        <div class="dados_b_P_C_B">
-            <!-- bacias -->
-        <div id="bacias" class="pesq_bacias">
-            <a href="#ifo_bacias" class="dados">BACIAS</a>
-            <div id="divBusca1" class="divBusca">
-                <div class="blocoFundo">
-                    <div class="bordaPesquisar">
-                        <img src="IMAGENS/pesquisar.png" id="imgbtnBacia" alt="Buscar" class="imgbtBuscar" />
 
-                        <select id="bacias" class="campos_pesquisa" onchange="mostrarOpcoesBlocos()">
-
-
-                            <option class="opcao" value="valor0">SELECIONE UMA BACIA PRIMEIRO</option>
-
-                            <option class="opcao" value="valor1">Paraná</option>
-                            <option class="opcao" value="mostrar"> São Paulo</option>
-                            <option class="opcao" value="valor1"> Rio de janeiro</option>
-                            <option class="opcao" value="valor1">Bahia</option>
-                            <option class="opcao" value="valor1">  Mato Grosso</option>
-                        </select>
-                    </div>
-                
+        <div class="div_mapa_do_brasil">
+            <div class="inf_selecionados " id="informacoes" style="display:none;">
+                <h4>
+                    <p>Bacia Selecionada: <span id="infoBacia"></span></p>
+                </h4>
+                <h4>
+                    <p>Bloco Selecionado: <span id="infoBloco"></span></p>
+                </h4>
+                <h4>
+                    <p>Campo Selecionado: <span id="infoCampo"></span></p>
+                </h4>
+                <h4>
+                    <p>Poço Selecionado: <span id="infoPoco"></span></p>
+                </h4>
+                <button onclick="abrirModal()">Mais informações</button>
             </div>
+            <img class="mapa_do_brasil" id="img_some_inf" src="IMAGENS/mapa_do_brasil.jpg" alt="">
         </div>
     </div>
 
-        <!-- BLOCOS -->
-        <div class="pesq_blocos">
-            <a href="#ifo_blocos" class="dados">BLOCOS</a>
-                <div id="divBusca1" class="divBusca">
-                    <div class="blocoFundo">
-                        <div class="bordaPesquisar">
-                            <img src="IMAGENS/pesquisar.png" id="imgbtnBlocos" alt="Buscar" class="imgbtBuscar"/>
-
-                            <select id="bloco"  class="campos_pesquisa" onchange="">
-                                
-                                <option class="opcao" value="valor0">"SELECIONE UMA BACIA PRIMEIRO...</option>
-                                <option class="opcao" value="mostrar">BM-S-13</option>
-                                <option class="opcao" value="valor1">BM-S-3</option>
-                                <option class="opcao" value="valor1">GUARA_SUL</option>
-                                <option class="opcao" value="valor1">S-M-673</option>
-                            </select>
-                        </div>
-                    
-                </div>
-            </div>
-        </div>
-
-
-        <!-- CAMPOS -->
-        <div class="pesq_campos">
-            <a href="#ifo_campos" class="dados">CAMPOS</a>
-            <div id="divBusca1" class="divBusca">
-                <div class="blocoFundo">
-                    <div class="bordaPesquisar">
-                        <img src="IMAGENS/pesquisar.png" id="imgbtnCampos" alt="Buscar" class="imgbtBuscar"/>
-
-                        <select id="campo" placeholder="SELECIONE UM CAMPO..." class="campos_pesquisa" onchange="">
-                            <option class="opcao" value="valor1">SELECIONE UM CAMPO PRIMEIRO...</option>
-                                <option class="opcao" value="valor1">Valor 1</option>
-                                <option class="opcao" value="valor1">Valor 1</option>
-                                <option class="opcao" value="valor1">Valor 1</option>
-                        <ul id="results"></ul>
-                        </select>
-                    </div>
-                
-            </div>
-        </div>
+    <div class="acesse_tambem">
+        <img class="acss" src="IMAGENS/acss_tmb.svg" alt="">
     </div>
 
-        <!-- POÇOS -->
-        <div class="pesq_pocos">
-            <a href="#ifo_pocos" class="dados">POÇOS</a>
-                <div id="divBusca1" class="divBusca">
-                    <div class="blocoFundo">
-                        <div class="bordaPesquisar">
-                            <img src="IMAGENS/pesquisar.png" id="imgbtnPocos" alt="Buscar" class="imgbtBuscar"/>
-
-                            <select id="pocoSelect" placeholder="SELECIONE UM POÇO..." class="campos_pesquisa">
-                                <option class="opcao" value="valor1">SELECIONE UM POÇO PRIMEIRO...</option>
-                                <option class="opcao" value="valor1">Valor 1</option>
-                                <option class="opcao" value="valor1">Valor 1</option>
-                                <option class="opcao" value="valor1">Valor 1</option>
-                            <ul id="results"></ul>
-                            </select>
-                        </div>
-                    
+    <!-- Cards Section -->
+    <div class="cards-container">
+        <a href="">
+            <div class="card">
+                <div class="card-content">
+                    <img src="IMAGENS/card_acss_1.svg" class="card-img-top" alt="...">
                 </div>
+        </a>
+    </div>
+    <div class="card2">
+        <a href="">
+            <div class="card-content">
+                <img src="IMAGENS/card_acss_2.svg" class="card-img-top" alt="...">
             </div>
+        </a>
+    </div>
+
+    <a href="">
+        <div class="card3">
+            <div class="card-content">
+                <img src="IMAGENS/cars_acss_3.svg" class="card-img-top" alt="...">
+            </div>
+    </a>
+    </div>
+    </div>
+
+    <div class="">
+        <img class="logo_petro" src="IMAGENS/logo_petro.svg" alt="">
+    </div>
+    <footer>df\afsdfsdfsdsdffd</footer>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <h4>
+                <p> OPERADOR: Petrobras <span id="modalOperador"></span></p>
+            </h4>
+            <h4>
+                <p>Bacia Selecionada: <span id="modalBacia"></span></p>
+            </h4>
+            <h4>
+                <p>Bloco Selecionado: <span id="modalBloco"></span></p>
+            </h4>
+            <h4>
+                <p>Campo Selecionado: <span id="modalCampo"></span></p>
+            </h4>
+            <h4>
+                <p>Poço Selecionado: <span id="modalPoco"></span></p>
+            </h4>
+            <h4>
+                <p>Tipo: 4 <span id="modalTipo"></span></p>
+            </h4>
+            <h4>
+                <p>Fluido principal: <span id="modalFluido"></span></p>
+            </h4>
+            <h4>
+                <p>Categoria: Pioneiro Adjacente <span id="modalCategoria"></span></p>
+            </h4>
+            <h4>
+                <p>Situação: Abandonado permanentemente <span id="modalSituacao"></span></p>
+            </h4>
+            <h4>
+                <p>Reclassificação: Descobridor de nova jazida petróleo <span id="modalReclassificacao"></span></p>
+            </h4>
+            <h4>
+                <p>Início: 10/11/2009 00h00<span id="modalInicio"></span></p>
+            </h4>
+            <h4>
+                <p>Término: 10/02/2010 00h00<span id="modalTermino"></span></p>
+            </h4>
+            <h4>
+                <p>Conclusão: 07/05/2010 00h00<span id="modalConclusao"></span></p>
+            </h4>
+            <h4>
+                <p>Lamina D’Agua: 178m <span id="modalLamina"></span></p>
+            </h4>
+            <h4>
+                <p>Coordenadas: <span id="modalCoordenada"></span></p>
+            </h4>
         </div>
-    <!-- <script src="dados.js"></script> -->
+    </div>
 </body>
+
 </html>

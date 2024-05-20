@@ -1,282 +1,1418 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
-
-@font-face {
-    font-family: 'Kulim Park Regular';
-    src:url("../FONTES/Kulim_Park/KulimPark-Regular.ttf");
-  }
-  @font-face {
-    font-family: 'Kulim Park B';
-    src:url("../FONTES/Kulim_Park/KulimPark-Bold.ttf");
-  }
-  @font-face {
-    font-family: 'Kulim Park 700';
-    src:url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@700&display=swap');
-  }
-
-
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
-    font-family: Kulim Park Regular, Arial, Helvetica, sans-serif;
 }
 
-img {
-    width: 2000px;
-    height: 600px;
+/* Modal */
+.modal {
+    display: none;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    margin-top: -2100px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-.Destasques {
-    color: green;
-    margin-left: 60px;
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
 }
 
-.barra {
-    background-color: #c7c3c354;
-    color: rgba(255, 255, 255, 0.5);
-    padding: 16px;
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.acesse_tambem {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.cards-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 2px solid forestgreen;
+    border-radius: 8px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
 }
 
-a:link {
-    text-decoration: none;
-}
-.pesq_bacias {
-    width: 500px;
-    width: 100%;
-}
-
-.em_site_p {
-    position: absolute;
-    color: aliceblue;
-    left: 410px;
-    transform: translateX(-50%);
-    margin: 0;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card2 {
+    background-color: #f9f9f9;
+    border: 2px solid forestgreen;
+    border-radius: 8px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.acesse_tbm {
-    position: absolute;
-    color: aliceblue;
-    left: 670px;
-    transform: translateX(-50%);
-    margin: 0;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card3 {
+    background-color: #f9f9f9;
+    border: 2px solid forestgreen;
+    border-radius: 8px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.todos_A {
-    color: aliceblue;
-    text-decoration: none;
-    margin: 0 15px;
+.card-content h3 {
+    margin-top: 0;
 }
 
-.todos_H h6 {
-    margin-bottom: 10px;
-}
-
-.todos_H {
-    position: absolute;
-    width: 8000px;
-    left: 20px;
-    bottom: 0;
-    margin: 850px;
-    color: rgb(255, 255, 255);
-    display: flex;
-    font-size: 25px;
-}
-
-.dadosgeo {
-    color: aliceblue;
+.card-content p {
+    color: #555;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: forestgreen;
+    padding: 30px 0;
+    width: 100%;
+    height: 100px;
 }
-.dados_geoespaciais {
-    width: 100rem;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+footer {
+    background: forestgreen;
+    margin-top: 0, ;
+    margin: 0;
+    padding: 5vh 0;
+    height: 100%;
+    bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 80px;
-    font-weight: 900;
-    font-family: Kulim Park 700;
 }
 
-.blocodadosgeoespaciais{
-    margin-top: 10px;
-    align-items: center; /* Centraliza verticalmente */
-    display: flex; /* Adiciona display flex para permitir alinhamento */
-    justify-content: center; /* Centraliza horizontalmente */
-    /* width: 100%; Ajusta a largura para 100% */
-    width: 100rem; /* Define o máximo de largura */
-    height: 6rem; /* Ajusta a altura conforme necessário */
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-}
 
-.dados_b_P_C_B {
-    text-align: center;
-    display: flex;
-    font-size: 30px;
-    font-weight: bold;
-    height: 100px; 
-}
-.dados_b_P_C_B .dados{
-    text-decoration: underline #FFCD01;
-}
-
- /* CSS BARRA DE PESQUISA */
-
- .imgbtBuscar {
-    height: 20px;
-    width: 20px;
-}
-
-.divBusca {
-    display: flex; /* Adiciona display flex para permitir alinhamento */
-    justify-content: center; /* Centraliza horizontalmente */
-    margin: 0 auto; /* Centraliza na horizontal dentro do contêiner pai */
-    width: 100%; /* Ajusta a largura para 100% */
+.limpar {
     margin-left: 10px;
-}
-
-.blocoFundo {
-    margin-top: 10px;
-    align-items: center; /* Centraliza verticalmente */
-    display: flex; /* Adiciona display flex para permitir alinhamento */
-    justify-content: center; /* Centraliza horizontalmente */
-    border-radius: 22px;
-    width: 100%; /* Ajusta a largura para 100% */
-    max-width: 400px; /* Define o máximo de largura */
-    height: 3.5rem; /* Ajusta a altura conforme necessário */
-    background: #128E50;
-}
-
-.blocoFundo img {
-    margin-right: 5px; /* Adiciona espaço à direita da imagem */
-    
-}
-
-.blocoFundo input {
-    margin-left: 5px; /* Adiciona espaço à esquerda do input */
-    outline: 0;
-    border: 0;
-    background-color: #128E50;
-}
-
-.dados {
-    color: #000;
-    text-align: left; /* Alinha o texto à esquerda */
-    margin-left: 0; /* Remove a margem à esquerda */
-}
-
-
-
-.bordaPesquisar {
-    border: 2px solid #fff;
+    height: 30px;
+    width: 100px;
     border-radius: 20px;
-    width: 95%;
-    height: 1.8rem;
-    display: flex; /* Adiciona display flex para alinhar os itens lado a lado */
-    align-items: center; /* Centraliza verticalmente os itens */
+    background-color: #d7dbdbcc;
 }
 
-.bordaPesquisar img {
-    margin-left: 5px;
-    margin-right: 5px; /* Adiciona espaço à direita da imagem */
+.limpar:hover {
+    background-color: yellow;
 }
 
-.bordaPesquisar input {
-    margin-left: 5px; /* Adiciona espaço à esquerda do input */
-    outline: 0;
-    border: 0;
-    background-color: #128E50;
-    flex: 1; /* O input ocupará o restante do espaço disponível */
+.inf_selecionados {
+    font-family: sans-serif;
 }
-
-input::placeholder {
-    color: rgba(255, 255, 255, 0.2);
-}
-
-
-/* barra de pesquisa JS */
 
 .container {
-    width: 400px;
-    margin: 50px auto;
-  }
-  
-  ul {
-    list-style-type: none;
+    display: flex;
+    justify-content: 100vh;
+    text-align: center;
+}
+
+.pai {
+    background-color: #ffffffcc;
+    width: 80vh;
+    height: 89vh;
+    margin-left: 17vh;
+    border: 1vh solid #d7dbdbcc;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    align-items: center;
+}
+
+
+.div_mapa_do_brasil {
+    background-color: #ffffffcc;
+    width: 80vh;
+    height: 89vh;
+    margin-left: 10vh;
+    border: 1vh solid #d7dbdbcc;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    align-items: center;
+}
+
+.mapa_do_brasil {
+    width: 80vh;
+    height: 75vh;
+
+}
+
+#img_some_inf {
+    width: 100%;
+    transition: opacity 0.5s ease;
+}
+
+#informacoes {
+    display: none;
+}
+
+.logo_petro {
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.logo_header {
+    margin-top: -50px;
     padding: 0;
-  }
-  
-  li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  li:last-child {
-    border-bottom: none;
-  }
+    margin-left: 10px;
+    width: 480px;
+    height: auto;
 
-  @media (max-width: 430px) {
+}
 
+.titulogeral {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #000000;
+    text-decoration: underline #FFCD01;
+    left: 760px;
+    position: relative;
+    width: 30%;
+}
+
+.tituloselects_Bac {
+    left: -100px;
+    margin-top: -75px;
+    font-size: 27px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline #FFCD01;
+    position: relative;
+    font-weight: bold;
+}
+
+.tituloselects_Bl {
+    left: -90px;
+    margin-top: -80px;
+    font-size: 27px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline #FFCD01;
+    position: relative;
+    font-weight: bold;
+}
+
+.tituloselects_C {
+    left: -90px;
+    margin-top: -75px;
+    font-size: 27px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline #FFCD01;
+    position: relative;
+    font-weight: bold;
+}
+
+.tituloselects_P {
+    left: -100px;
+    margin-top: -75px;
+    font-size: 27px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline #FFCD01;
+    position: relative;
+    font-weight: bold;
+}
+
+.BACIAS {
+    position: relative;
+    max-width: 100%;
+    top: 20px;
+    left: -57px;
+    width: 30vh;
+    height: 12vh;
+    margin-left: 30vh;
+    border: 1vh solid #d8dbd7cc;
+    border-radius: 2vh;
+    margin-top: 5vh;
+    align-items: center;
+    background-image: url('img.svg');
+}
+
+.BLOCO {
+    position: relative;
+    max-width: 100%;
+    top: 20px;
+    left: -57px;
+    width: 30vh;
+    height: 12vh;
+    margin-left: 30vh;
+    border: 1vh solid #d8dbd7cc;
+    border-radius: 2vh;
+    margin-top: 6vh;
+    align-items: center;
+    background-image: url('img.svg');
+}
+
+
+.CAMPO {
+    position: relative;
+    max-width: 100%;
+    top: 20px;
+    left: -57px;
+    width: 30vh;
+    height: 12vh;
+    margin-left: 30vh;
+    border: 1vh solid #d8dbd7cc;
+    border-radius: 2vh;
+    margin-top: 5vh;
+    align-items: center;
+    background-image: url('img.svg');
+}
+
+
+.POÇO {
+    position: relative;
+    max-width: 100%;
+    top: 20px;
+    left: -57px;
+    width: 30vh;
+    height: 12vh;
+    margin-left: 30vh;
+    border: 1vh solid #d8dbd7cc;
+    border-radius: 2vh;
+    margin-top: 5vh;
+    align-items: center;
+    background-image: url('img.svg');
+}
+
+.svg_pesquisa {
+
+    height: 150px;
+    width: 300px;
+}
+
+.pesquisar {
+    margin-top: 100px;
+    margin-left: -10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.campos_pesquisa_bacias {
+    border-radius: 2vh;
+    margin-top: 0.5vh;
+    margin-left: 3vh;
+    background-color: #ffff;
+    height: 3vh;
+    width: 23vh;
+    border-color: #ffff;
+
+}
+
+.campos_pesquisa_bloco {
+    border-radius: 2vh;
+    margin-top: 1vh;
+    margin-left: 3vh;
+    background-color: #ffff;
+    border-color: #ffff;
+    height: 3vh;
+    width: 23vh;
+
+}
+
+.campos_pesquisa_campo {
+    border-radius: 2vh;
+    margin-top: 0.5vh;
+    margin-left: 3vh;
+    background-color: #ffff;
+    border-color: #ffff;
+    height: 3vh;
+    width: 23vh;
+
+}
+
+.campos_pesquisa_pocos {
+    border-radius: 2vh;
+    margin-top: 0.5vh;
+    margin-left: 3vh;
+    background-color: #ffff;
+    border-color: #ffff;
+    height: 3vh;
+    width: 23vh;
+
+}
+
+
+.pesquisar:hover {
+    background: yellow;
+}
+
+/* teste barra lateral */
+
+nav.menu_leteral {
+    width: 60px;
+    height: 100vh;
+    /* Use 100vh para ocupar toda a altura da viewport */
+    background-color: forestgreen;
+    box-shadow: 3px 0 0 #1ceb09;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu_leteral:hover {
+    width: 190px;
+}
+
+.btn-expandir {
+    width: 30px;
+    padding-left: 5px;
+}
+
+.btn-expandir>i {
+    color: wheat;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+ul.margin-icons {
+    list-style-type: none;
+    margin: 40px 0 0;
+    /* Ajuste a margem superior para deixar espaço para o botão de expansão */
+    padding: 0;
+}
+
+ul.margin-icons li.item-menu {
+    margin-left: 0;
+}
+
+ul.margin-icons li.item-menu:hover {
+    background: #1ceb09;
+}
+
+ul.margin-icons li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+}
+
+ul.margin-icons li.item-menu a .icon {
+    position: relative;
+    left: 0px;
+}
+
+ul.margin-icons li.item-menu a .txt-link {
+    margin-left: 30px;
+}
+
+ul.margin-icons li.item-menu a .icon>i {
+    font-size: 30px;
+}
+
+@media (max-width: 1440px) {
+    header {
+        background: forestgreen;
+        padding: 30px 0;
+        width: 100%;
+        height: 70px;
+    }
+
+    .logo_header {
+        margin-top: -45px;
+        padding: 10px;
+        margin-left: 30px;
+        width: 37vh;
+        height: auto;
+    }
+
+    .titulogeral {
+        margin-top: 50px;
+        font-size: 27px;
+        font-family: sans-serif;
+        color: #000000;
+        text-decoration: underline #FFCD01;
+        left: 550px;
+        position: relative;
+        width: 30%;
+    }
+
+    .pai {
+        background-color: #ffffffcc;
+        width: 70vh;
+        height: 80vh;
+        margin-left: 11.5vh;
+        border: 1vh solid #d7dbdbcc;
+        border-radius: 2vh;
+        margin-top: 2vh;
+        align-items: center;
+    }
+
+    .tituloselects_Bac {
+        left: -15px;
+        margin-top: -75px;
+        font-size: 27px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        position: relative;
+        font-weight: bold;
+        width: 40%;
+    }
+
+    .BACIAS {
+        position: relative;
+        top: 30px;
+        left: -96px;
+        width: 32vh;
+        height: 10vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_bacias {
+        border-radius: 2vh;
+        margin-top: 0.6vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+        border-color: #ffff;
+    }
+
+    .BLOCO {
+        position: relative;
+        max-width: 100%;
+        top: 50px;
+        left: -96px;
+        width: 32vh;
+        height: 10vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_bloco {
+        border-radius: 2vh;
+        margin-top: 1.2vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .CAMPO {
+        position: relative;
+        max-width: 100%;
+        top: 60px;
+        left: -96px;
+        width: 32vh;
+        height: 10vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_campo {
+        border-radius: 2vh;
+        margin-top: 0.7vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .POÇO {
+        position: relative;
+        max-width: 100%;
+        top: 60px;
+        left: -96px;
+        width: 32vh;
+        height: 10vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_pocos {
+        border-radius: 2vh;
+        margin-top: 0.7vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .pesquisar {
+        margin-top: 65px;
+        margin-left: -10px;
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    .limpar {
+        margin-top: 65px;
+        margin-left: 10px;
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: #d7dbdbcc;
+    }
+
+    .div_mapa_do_brasil {
+        background-color: #ffffffcc;
+        width: 70vh;
+        height: 80vh;
+        margin-left: 7vh;
+        border: 1vh solid #d7dbdbcc;
+        border-radius: 2vh;
+        margin-top: 2vh;
+        align-items: center;
+    }
+
+    .mapa_do_brasil {
+        width: 80vh;
+        height: 72vh;
+        margin-top: 30px;
+
+    }
+
+    /* Modal */
+    .modal {
+        display: none;
+        position: relative;
+        z-index: 1;
+        left: 0;
+        margin-top: -1900px;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media (max-width: 1024px) {
+    nav.menu_leteral {
+        width: 70px;
+        height: 100vh;
+        /* Use 100vh para ocupar toda a altura da viewport */
+        background-color: forestgreen;
+        box-shadow: 3px 0 0 #1ceb09;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        transition: .2s;
+    }
+
+    .btn-expandir {
+        width: 20px;
+        height: auto;
+        padding-left: 5px;
+    }
+
+    ul.margin-icons li.item-menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 20px;
+        display: flex;
+        position: relative;
+    }
+
+    .sanduba {
+        width: 100%;
+        padding: 0px;
+    }
+
+    header {
+        background: forestgreen;
+        padding: 30px 0;
+        width: 100%;
+        height: 60px;
+    }
+
+    .logo_header {
+        margin-top: -50px;
+        padding: 10px;
+        margin-left: 30px;
+        width: 37vh;
+        height: auto;
+    }
+
+    .titulogeral {
+        margin-top: 50px;
+        font-size: 24px;
+        font-family: sans-serif;
+        color: #000000;
+        text-decoration: underline #FFCD01;
+        left: 370px;
+        position: relative;
+        width: 40%;
+
+    }
+
+    .pai {
+        background-color: #ffffffcc;
+        width: 100%;
+        height: 45vh;
+        margin-left: 180px;
+        border: 1vh solid #d7dbdbcc;
+        border-radius: 2vh;
+        margin-top: -20px;
+        align-items: center;
+    }
+
+    .tituloselects_Bac {
+        left: -15px;
+        margin-top: -75px;
+        font-size: 27px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        position: relative;
+        font-weight: bold;
+        width: 40%;
+    }
+
+    .BACIAS {
+        position: relative;
+        top: 30px;
+        left: -195px;
+        width: 32vh;
+        height: 10vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_bacias {
+        border-radius: 2vh;
+        margin-top: 0.6vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+        border-color: #ffff;
+    }
+
+    .BLOCO {
+        position: relative;
+        max-width: 100%;
+        top: 50px;
+        left: -195px;
+        width: 32vh;
+        height: 10vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_bloco {
+        border-radius: 2vh;
+        margin-top: 1.2vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .CAMPO {
+        position: relative;
+        max-width: 100%;
+        top: -119px;
+        left: 160px;
+        width: 32vh;
+        height: 10vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: -100px;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_campo {
+        border-radius: 2vh;
+        margin-top: 0.7vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .POÇO {
+        position: relative;
+        max-width: 100%;
+        top: -100px;
+        left: 160px;
+        width: 32vh;
+        height: 10vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_pocos {
+        border-radius: 2vh;
+        margin-top: 5px;
+        margin-left: 40px;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .botoes {
+        margin-top: 0px;
+        margin-left: 74px;
+        font-size: 11px;
+    }
+
+    .pesquisar {
+        margin-top: 65px;
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    .limpar {
+        margin-top: 65px;
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: #d7dbdbcc;
+    }
+
+    .div_mapa_do_brasil {
+        background-color: #ffffffcc;
+        width: 100%;
+        height: auto;
+        margin-left: -750px;
+        left: -50px;
+        border: 1vh solid #d7dbdbcc;
+        border-radius: 2vh;
+        margin-top: 50vh;
+        position: relative;
+    }
+
+    .mapa_do_brasil {
+        width: 20%;
+        height: auto;
+        margin-top: 30px;
+
+    }
+
+    /* Modal */
+    .modal {
+        display: none;
+        position: relative;
+        z-index: 1;
+        left: 0;
+        margin-top: -2360px;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .acss {
+        width: 180px !important;
+        height: auto;
+        top: -110px !important;
+        margin-left: 20px;
+        position: relative;
+    }
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 15%;
+        left: 40px;
+        top: -210px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .card2 {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 15%;
+        left: 60px;
+        top: -210px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .card3 {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 15%;
+        left: 10px;
+        top: -210px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .logo_petro {
+        margin-left: 180px;
+        top: -250px;
+        position: relative;
+    }
+    footer {
+        background: forestgreen;
+        margin-top: 10px;
+        margin: 0;
+        padding: 5vh 0;
+        height: 100%;
+        bottom: 0;
+        top: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
     
 }
 
-.select_bacias{
-background-color: #128E50;
-border-radius: 10px;
-font-size: larger;
+@media (max-width: 768px) {
+    .sanduba {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    header {
+        background: forestgreen;
+        padding: 30px;
+        width: 800%;
+        max-width: 100%;
+        height: 60px;
+    }
+
+    .logo_header {
+        margin-top: -50px;
+        padding: 10px;
+        margin-left: 30px;
+        width: 37vh;
+        height: auto;
+    }
+
+    .titulogeral {
+        margin-top: 30px;
+        font-size: 21px;
+        font-family: sans-serif;
+        color: #000000;
+        text-decoration: underline #FFCD01;
+        left: 290px;
+        position: relative;
+        width: 50%;
+
+    }
+
+    .pai {
+        background-color: #ffffffcc;
+        width: 100%;
+        height: 45vh;
+        margin-left: 140px;
+        border: 1vh solid #d7dbdbcc;
+        border-radius: 2vh;
+        margin-top: -20px;
+        align-items: center;
+    }
+
+    .tituloselects_Bac {
+        left: -15px;
+        margin-top: -75px;
+        font-size: 27px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        position: relative;
+        font-weight: bold;
+        width: 40%;
+    }
+
+    .BACIAS {
+        position: relative;
+        top: 30px;
+        left: -250px;
+        width: 32vh;
+        height: 9vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_bacias {
+        border-radius: 2vh;
+        margin-top: 0.6vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+        border-color: #ffff;
+    }
+
+    .BLOCO {
+        position: relative;
+        max-width: 100%;
+        top: 50px;
+        left: -250px;
+        width: 32vh;
+        height: 9vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_bloco {
+        border-radius: 2vh;
+        margin-top: 1.2vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .CAMPO {
+        position: relative;
+        max-width: 100%;
+        top: -104px;
+        left: 100px;
+        width: 32h;
+        height: 9vh;
+        margin-left: 25vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: -100px;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_campo {
+        border-radius: 2vh;
+        margin-top: 0.7vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .POÇO {
+        position: relative;
+        max-width: 100%;
+        top: -83px;
+        left: 80px;
+        width: 32vh;
+        height: 9vh;
+        margin-left: 27.5vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_pocos {
+        border-radius: 2vh;
+        margin-top: 5px;
+        margin-left: 30px;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .botoes {
+        margin-top: 0px;
+        margin-left: 74px;
+        font-size: 11px;
+    }
+
+    .pesquisar {
+        margin-top: 65px;
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    .limpar {
+        margin-top: 65px;
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: #d7dbdbcc;
+    }
+
+    .div_mapa_do_brasil {
+        background-color: #ffffffcc;
+        width: 100%;
+        height: auto;
+        margin-left: -650px;
+        left: 10px;
+        border: 1vh solid #d7dbdbcc;
+        border-radius: 2vh;
+        margin-top: 50vh;
+        position: relative;
+    }
+
+    .mapa_do_brasil {
+        width: 10%;
+        height: auto;
+        margin-top: 30px;
+
+    }
+
+    /* Modal */
+    .modal {
+        display: none;
+        position: relative;
+        z-index: 1;
+        margin-top: -2110px;
+        left: 72px;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .acesse_tambem {
+        width: 30px !important;
+        height: auto;
+        top: 10px;
+        left: -40px;
+        position: relative;
+    }
+
+
+    .card {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 15%;
+        left: 40px;
+        top: -210px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .card2 {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 15%;
+        left: 70px;
+        top: -210px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .card3 {
+        background-color: #f9f9f9;
+        border: 2px solid forestgreen;
+        border-radius: 8px;
+        padding: 20px;
+        width: 15%;
+        left: 60px;
+        top: -210px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .cards-container {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+        left: 40px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+    .logo_petro {
+        margin-left: 125px;
+        top: -250px;
+        position: relative;
+    }
+
 }
 
-.pesq_blocos{
-    width: 500px;
-    width: 100%;
-}
+@media (max-width: 425px) {
+    header {
+        background: forestgreen;
+        padding: 20px;
+        width: 100% !important;
+        position: relative;
+        max-width: 100%;
+        height: 80px;
+    }
 
-.pesq_campos{
-    width: 500px;
-    width: 100%;
-}
+    .logo_header {
+        margin-top: -50px;
+        padding: 10px;
+        margin-left: 30px;
+        width: 37vh;
+        height: auto;
+    }
+    .titulogeral {
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: sans-serif;
+        color: #000000;
+        text-decoration: underline #FFCD01;
+        left: 150px;
+        position: relative;
+        width: 60%;
 
-.pesq_pocos{
-    width: 500px;
-    width: 100%;
-}
+    }
+    .pai {
+        background-color: #ffffffcc;
+        width: 100%;
+        height: 45vh;
+        margin-left: 0px;
+        margin-right: 50px;
+        left:20px;
+        position: relative;
+        border: 1vh solid #d7dbdbcc;
+        border-radius: 2vh;
+        margin-top: -20px;
+        align-items: center;
+    }
 
-/* barras de pesquisa campos, bacias poços*/
-#bloco {
-    display:none; /* Inicialmente, o segundo select está escondido */
-}
+    .tituloselects_Bac {
+        left: -15px;
+        margin-top: -75px;
+        font-size: 27px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        position: relative;
+        font-weight: bold;
+        width: 40%;
+    }
 
-.campos_pesquisa{
-    width: 500px;
-    height:30px;
-    border-radius: 25px;
-    border-color: #128E50;
-    background-color: #128E50;
-    color:#fff;
-}
-.opcao{
-    border-radius:50%;
+    .BACIAS {
+        position: relative;
+        top: 30px;
+        left: -195px;
+        width: 32vh;
+        height: 8vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
 
+    .campos_pesquisa_bacias {
+        border-radius: 2vh;
+        margin-top: 0.6vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+        border-color: #ffff;
+    }
+
+    .BLOCO {
+        position: relative;
+        max-width: 100%;
+        top: 50px;
+        left: -195px;
+        width: 32vh;
+        height: 8vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_bloco {
+        border-radius: 2vh;
+        margin-top: 1.2vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .CAMPO {
+        position: relative;
+        max-width: 100%;
+        top: 150px;
+        left: -195px;
+        width: 32vh;
+        height: 8vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: -100px;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_campo {
+        border-radius: 2vh;
+        margin-top: 0.7vh;
+        margin-left: 3vh;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .POÇO {
+        position: relative;
+        max-width: 100%;
+        top: 90px;
+        left: -195px;
+        width: 32vh;
+        height: 8vh;
+        margin-left: 30vh;
+        border: 1vh solid #d8dbd7cc;
+        border-radius: 2vh;
+        margin-top: 5vh;
+        align-items: center;
+        background-image: url('img.svg');
+    }
+
+    .campos_pesquisa_pocos {
+        border-radius: 2vh;
+        margin-top: 5px;
+        margin-left: 40px;
+        background-color: #ffff;
+        border-color: #ffff;
+        height: 3vh;
+        width: 23vh;
+    }
+
+    .botoes {
+        margin-top: 0px;
+        margin-left: 74px;
+        font-size: 11px;
+    }
+
+    .pesquisar {
+        margin-top: 65px;
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    .limpar {
+        margin-top: 65px;
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: #d7dbdbcc;
+    }
+
+    .div_mapa_do_brasil {
+        background-color: #ffffffcc;
+        width: 100%;
+        height: auto;
+        margin-left: -380px;
+        margin-right: -20px;
+        left: 5px;
+        border: 1vh solid #d7dbdbcc;
+        border-radius: 2vh;
+        margin-top: 50vh;
+        position: relative;
+    }
+
+    .mapa_do_brasil {
+        width: 20%;
+        height: auto;
+        margin-top: 30px;
+
+    }
 }
