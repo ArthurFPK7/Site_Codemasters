@@ -971,6 +971,7 @@ ul.margin-icons li.item-menu a .icon>i {
     }
     nav.menu_leteral:hover {
         width: 137px;
+        z-index:1;
     }
     header {
         background: forestgreen;
