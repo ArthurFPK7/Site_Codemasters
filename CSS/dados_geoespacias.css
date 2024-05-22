@@ -100,7 +100,7 @@ a:hover {
 
 .dados_b_P_C_B a {
     margin-right: 200px;
-    transition: 7s;
+    
 }
 
 .dados_b_P_C_B a:last-child {
@@ -723,6 +723,11 @@ footer {
         position: relative;
         left: 30px;
     }
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
 
 }
 
@@ -731,16 +736,16 @@ footer {
     /*TITULOS BACIAS BLOCOS*/
     .dados_b_P_C_B {
         font-size: smaller;
-        text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         font-family: 'Kulim bold', sans-serif;
         margin-top: 50px;
         font-weight: bold;
+        width: 100%;
     }
 
     .dados_b_P_C_B a {
-        margin-right: 200px;
-        transition: 7s;
+        margin-right: 130px;
+        
     }
 
     .dados_b_P_C_B a:last-child {
@@ -751,6 +756,14 @@ footer {
         text-decoration: underline #FFCD01;
     }
 
+    .exp_dados {
+        margin-top: 20px;
+        font-size: 22px !important;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
     /* CSS para espaçamento entre a bacias, campos, blocos*/
 
     .dados {
@@ -1123,6 +1136,20 @@ footer {
 
 @media (max-width: 768px) {
 
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 80px;
+       
+    }
+
     .dados_geoespaciais {
         position: absolute;
         top: 25% !important;
@@ -1321,9 +1348,26 @@ footer {
         top: auto;
         left: 155px !important;
     }
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -100px;
+    }
 }
 
 @media (max-width: 425px) {
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 22px !important;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 20px !important;
+        font-weight: bold;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 10px !important;
+    }
     .image_fundo {
         width: 2000px;
         height: auto;
@@ -1366,7 +1410,20 @@ footer {
     .dados_b_P_C_B .dados {
         text-decoration: underline #FFCD01;
     }
-    
+
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
+    .exp_dados {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
     /* CSS para espaçamento entre a bacias, campos, blocos*/
     
     .dados {
@@ -1656,6 +1713,17 @@ footer {
 
 }
 @media (max-width: 375px) {
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 18px !important;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    .dados_b_P_C_B a {
+        margin-right: 5px !important;
+    }
     .titulo_mapa_de_atuacao {
         display: block;
         /* flex-wrap: wrap; */
@@ -1744,7 +1812,7 @@ footer {
         background-color: #FFCD01;
         padding:15px;
         color: aliceblue;
-        font-size: 15px;
+        font-size: 15px !important;
         text-align: center;
         cursor: pointer;
         font-weight: bold;
@@ -1752,6 +1820,19 @@ footer {
     }
 }
 @media (max-width: 320px) {
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 16px !important;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 80px;
+    }
+
     .dados_geoespaciais {
         position: absolute;
         top: 11% !important;
@@ -1854,8 +1935,13 @@ footer {
         top: auto;
         left: 10px !important;
     }
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
     .botao_geoespaciais {
-        top: 60px;
+        top: 0px !important;
         border-radius: 40px;
         background-color: #FFCD01;
         padding:10px!important;
@@ -1865,5 +1951,6 @@ footer {
         cursor: pointer;
         font-weight: bold;
         border-color: #FFCD01;
+        position: relative;
     }
 }
