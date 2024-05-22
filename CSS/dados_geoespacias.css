@@ -541,6 +541,8 @@ footer {
     background-clip: text;
     color: transparent;
     margin-left: 20%;
+    margin-right:20px;
+    margin-bottom: 0;
 
 }
 
@@ -771,6 +773,23 @@ footer {
     }
 
     /**/
+    .P_titulo_b {
+        margin-top: 60px;
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 40px;
+        position: relative;
+    }
+    .titulo_blocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 40px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 40px;
+        position: relative;
+    }
 
     .imagens_mapa {
         width: 60%;
@@ -1162,7 +1181,41 @@ footer {
         border-radius: 10px;
         font-family: sans-serif;
     }
-
+    .P_titulo_b {
+        margin-top: 60px;
+        font-size: 36px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 30px;
+        position: relative;
+    }
+    .titulo_blocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 36px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 30px;
+        position: relative;
+    }
+    .P_titulo_c {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 36px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 30px;
+        position: relative;
+    }
+    .titulo_pocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 36px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 30px;
+        position: relative;
+    }
     /* BACIA SANTOS */
     .conj_tit_bac_santos {
         display: block;
